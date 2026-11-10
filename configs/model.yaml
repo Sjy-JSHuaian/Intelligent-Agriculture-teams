@@ -1,0 +1,7 @@
+# 模型配置（U-Net 基线）
+model:
+  name: unet
+  encoder_name: resnet18      # 轻量编码器，适合 CPU
+  encoder_weights: null       # null=随机初始化（避免联网下载预训练权重）
+  in_channels: 3              # RGB
+  num_classes: 7              # 7 个语义类别（no-data 已在数据层忽略）

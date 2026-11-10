@@ -1,0 +1,14 @@
+# 模型对比评估配置
+models:
+  - name: unet
+    model_config: configs/model.yaml
+    checkpoint: checkpoints/unet_best.pth
+  - name: segformer
+    model_config: configs/model_segformer.yaml
+    checkpoint: checkpoints_segformer/segformer_best.pth
+
+data:
+  root: data/raw/loveda
+  scenes: [urban, rural]
+  val_subset: 20
+  tile_size: 256

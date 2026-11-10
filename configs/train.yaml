@@ -1,0 +1,19 @@
+# 训练配置（U-Net 基线，快速验证规模）
+data:
+  root: data/raw/loveda
+  scenes: [urban, rural]
+  train_subset: 100           # 快速验证：只用 100 张训练
+  val_subset: 20              # 20 张验证
+  tile_size: 256
+
+training:
+  seed: 42
+  batch_size: 8
+  epochs: 8
+  lr: 0.0001
+  weight_decay: 0.0001
+  dice_weight: 0.5
+  num_workers: 0              # Windows 下多进程数据加载易出问题，用 0
+  log_interval: 10
+  save_dir: checkpoints
+  output_dir: outputs
