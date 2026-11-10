@@ -1,0 +1,38 @@
+[
+  {
+    "file": "NASA_POWER_Daily_API_快照2026-11-09.html",
+    "url": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+    "snapshot_date": "2026-11-09",
+    "role": "Documentation only, not Jiabang data"
+  },
+  {
+    "file": "OpenMeteo_历史数据说明_快照2026-11-09.html",
+    "url": "https://open-meteo.com/en/docs/historical-weather-api",
+    "snapshot_date": "2026-11-09",
+    "role": "Documentation only, not Jiabang data"
+  },
+  {
+    "file": "ERA5_Land_CDS目录_快照2026-11-09.html",
+    "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land",
+    "snapshot_date": "2026-11-09",
+    "role": "Documentation only, not Jiabang data"
+  },
+  {
+    "file": "CHIRPS_v2_目录_快照2026-11-09.html",
+    "url": "https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY",
+    "snapshot_date": "2026-11-09",
+    "role": "Documentation only, not Jiabang data"
+  },
+  {
+    "file": "CHIRPS版本说明_快照2026-11-09.html",
+    "url": "https://www.chc.ucsb.edu/data/chirps3",
+    "snapshot_date": "2026-11-09",
+    "role": "Documentation only, not Jiabang data"
+  },
+  {
+    "file": "高德坐标转换说明_快照2026-11-10.html",
+    "url": "https://lbs.amap.com/api/webservice/guide/api/convert",
+    "snapshot_date": "2026-11-10",
+    "role": "Coordinate conventions; does not identify screenshot CRS"
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "period": [
+    "2021-01-01",
+    "2025-12-31"
+  ],
+  "background_request_points": 1,
+  "rows": {
+    "nasa_daily": 1826,
+    "era5_hourly": 43824,
+    "era5_daily": 1826,
+    "chirps_daily": 1826,
+    "merged_daily": 1826
+  },
+  "missing_merged_values": 0,
+  "missing_era5_hourly_values": 0,
+  "date_coverage_check": "passed",
+  "duplicate_time_check": "passed",
+  "24_valid_hours_each_era5_day": true,
+  "numeric_ranges": {
+    "nasa_tmean_c": [
+      -4.41,
+      27.72
+    ],
+    "nasa_tmax_c": [
+      0.96,
+      32.83
+    ],
+    "nasa_tmin_c": [
+      -9.47,
+      24.64
+    ],
+    "nasa_rh_pct": [
+      45.4,
+      95.69
+    ],
+    "nasa_precip_mm_day": [
+      0.0,
+      67.74
+    ],
+    "nasa_wind2m_ms": [
+      0.57,
+      7.05
+    ],
+    "nasa_solar_mj_m2_day": [
+      1.38,
+      29.93
+    ],
+    "era5_sm_0_7_m3_m3_daily_mean": [
+      0.26358333333333334,
+      0.51
+    ],
+    "era5_sm_7_28_m3_m3_daily_mean": [
+      0.287,
+      0.507875
+    ],
+    "era5_temperature_c_daily_mean": [
+      -4.383333333333334,
+      29.63333333333333
+    ],
+    "chirps_selected_precip_mm_day": [
+      0.0,
+      124.1727523803711
+    ]
+  },
+  "era5_grid": {
+    "year": 2021,
+    "point_id": "J01",
+    "longitude": 108.586886,
+    "latitude": 25.602516,
+    "era5_grid_latitude": 25.599998,
+    "era5_grid_longitude": 108.600006,
+    "era5_grid_elevation_m": 779.0,
+    "requested_crs_verified": false,
+    "elevation_downscaling": false
+  },
+  "chirps_grid": {
+    "shape": [
+      1826,
+      2,
+      2
+    ],
+    "valid_cells_each_day": 1,
+    "fixed_masked_cells_each_day": 3,
+    "fixed_mask_all_dates": true,
+    "valid_cell_coordinates": [
+      {
+        "cell_id": "CH01",
+        "longitude": 108.57500430010259,
+        "latitude": 25.624999636784196,
+        "nominal_resolution_degrees": 0.05
+      }
+    ],
+    "max_abs_grid_mean_vs_API_mm": 0.0,
+    "temporal_missing_values_within_selected_cells": 0,
+    "value_range_mm": [
+      0.0,
+      124.1727523803711
+    ],
+    "time_bounds_variable_missing": true,
+    "interpretation": "ClimateSERV-selected cell arithmetic mean; not exact polygon area-weighted precipitation. With one valid cell this equals that cell value. Fixed outer masked cells must not be filled with zero."
+  },
+  "day_alignment": "Date labels only; NASA LST, ERA5 Asia/Shanghai, CHIRPS product date are not normalized to a common day boundary."
+}

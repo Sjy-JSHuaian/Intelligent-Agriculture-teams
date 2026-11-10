@@ -1,0 +1,21 @@
+{
+  "params": {
+    "datatype": 0,
+    "seasonal_ensemble": "",
+    "seasonal_variable": "",
+    "begintime": "01/01/2021",
+    "endtime": "12/31/2025",
+    "intervaltype": 0,
+    "operationtype": 5,
+    "dateType_Category": "default",
+    "isZip_CurrentDataType": "false",
+    "geometry": "{\"type\":\"Polygon\",\"coordinates\":[[[108.56,25.58],[108.62,25.58],[108.62,25.625],[108.56,25.625],[108.56,25.58]]],\"properties\":{}}"
+  },
+  "job_id": "4fb10f27-5a8a-4ce9-921e-02b118a5bdef",
+  "submit_url": "https://climateserv.servirglobal.net/api/submitDataRequest/?datatype=0&seasonal_ensemble=&seasonal_variable=&begintime=01%2F01%2F2021&endtime=12%2F31%2F2025&intervaltype=0&operationtype=5&dateType_Category=default&isZip_CurrentDataType=false&geometry=%7B%22type%22%3A%22Polygon%22%2C%22coordinates%22%3A%5B%5B%5B108.56%2C25.58%5D%2C%5B108.62%2C25.58%5D%2C%5B108.62%2C25.625%5D%2C%5B108.56%2C25.625%5D%2C%5B108.56%2C25.58%5D%5D%5D%2C%22properties%22%3A%7B%7D%7D",
+  "download_url": "https://climateserv.servirglobal.net/api/getDataFromRequest/?id=4fb10f27-5a8a-4ce9-921e-02b118a5bdef",
+  "file": "chirps_v2_region_daily_2021-2025.json",
+  "bytes": 311702,
+  "sha256": "36e111575bc59a4cc3b12103d2a01aef7e814638952f8abbf68b61d84a2d6921",
+  "retrieved_at_utc": "2026-11-09T16:12:25.473241+00:00"
+}

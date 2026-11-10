@@ -1,0 +1,36 @@
+{
+  "project": "加榜梯田山地农业风险监测与无人机协同巡检",
+  "study_area": "加车村附近梯田群初始实验框",
+  "period": [
+    "2021-01-01",
+    "2025-12-31"
+  ],
+  "source": "User-provided screenshot on 2026-11-10",
+  "source_center_lon_lat": [
+    108.586886,
+    25.602516
+  ],
+  "source_bbox_wsen": [
+    108.56,
+    25.58,
+    108.62,
+    25.625
+  ],
+  "source_crs": "unspecified; screenshot references Amap",
+  "working_crs": "EPSG:4326 interpretation of supplied numeric coordinates, PROVISIONAL",
+  "coordinate_transform_applied": false,
+  "crs_verified": false,
+  "flight_ready": false,
+  "point": {
+    "point_id": "J01",
+    "longitude": 108.586886,
+    "latitude": 25.602516
+  },
+  "approximate_width_km": 6.023,
+  "approximate_height_km": 5.004,
+  "notes": [
+    "This rectangle is an initial data extraction AOI, not terrace field boundaries.",
+    "Only one background request point is used because native weather grids are coarse.",
+    "Amap coordinates may be GCJ-02; original CRS is unconfirmed. No unverified conversion has been applied."
+  ]
+}

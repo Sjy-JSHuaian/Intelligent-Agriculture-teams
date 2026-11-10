@@ -1,0 +1,26 @@
+﻿year,event_type,event_name,valid_days,candidate_days,level2_days,candidate_day_percent,episodes_starting_in_year,interpretation
+2021,rainfall,集中降雨关注,363,40,22,11.01928375,16,Screened days may overlap across types; not disease incidence or model accuracy
+2021,water_supply,少雨与土壤偏干关注,336,0,0,0.00000000,0,Screened days may overlap across types; not disease incidence or model accuracy
+2021,wet_environment,持续湿润环境关注,359,46,20,12.81337047,11,Screened days may overlap across types; not disease incidence or model accuracy
+2021,warm_anomaly,偏热背景关注,363,13,4,3.58126722,4,Screened days may overlap across types; not disease incidence or model accuracy
+2021,cold_anomaly,偏冷背景关注,363,14,7,3.85674931,5,Screened days may overlap across types; not disease incidence or model accuracy
+2022,rainfall,集中降雨关注,365,41,16,11.23287671,14,Screened days may overlap across types; not disease incidence or model accuracy
+2022,water_supply,少雨与土壤偏干关注,365,16,1,4.38356164,5,Screened days may overlap across types; not disease incidence or model accuracy
+2022,wet_environment,持续湿润环境关注,365,43,26,11.78082192,7,Screened days may overlap across types; not disease incidence or model accuracy
+2022,warm_anomaly,偏热背景关注,365,0,0,0.00000000,0,Screened days may overlap across types; not disease incidence or model accuracy
+2022,cold_anomaly,偏冷背景关注,365,20,8,5.47945205,6,Screened days may overlap across types; not disease incidence or model accuracy
+2023,rainfall,集中降雨关注,365,22,13,6.02739726,8,Screened days may overlap across types; not disease incidence or model accuracy
+2023,water_supply,少雨与土壤偏干关注,365,21,3,5.75342466,3,Screened days may overlap across types; not disease incidence or model accuracy
+2023,wet_environment,持续湿润环境关注,365,5,0,1.36986301,3,Screened days may overlap across types; not disease incidence or model accuracy
+2023,warm_anomaly,偏热背景关注,365,54,28,14.79452055,17,Screened days may overlap across types; not disease incidence or model accuracy
+2023,cold_anomaly,偏冷背景关注,365,11,7,3.01369863,3,Screened days may overlap across types; not disease incidence or model accuracy
+2024,rainfall,集中降雨关注,366,54,33,14.75409836,18,Screened days may overlap across types; not disease incidence or model accuracy
+2024,water_supply,少雨与土壤偏干关注,366,15,0,4.09836066,2,Screened days may overlap across types; not disease incidence or model accuracy
+2024,wet_environment,持续湿润环境关注,366,31,18,8.46994536,7,Screened days may overlap across types; not disease incidence or model accuracy
+2024,warm_anomaly,偏热背景关注,366,19,5,5.19125683,9,Screened days may overlap across types; not disease incidence or model accuracy
+2024,cold_anomaly,偏冷背景关注,366,15,6,4.09836066,4,Screened days may overlap across types; not disease incidence or model accuracy
+2025,rainfall,集中降雨关注,365,45,23,12.32876712,14,Screened days may overlap across types; not disease incidence or model accuracy
+2025,water_supply,少雨与土壤偏干关注,365,1,0,0.27397260,1,Screened days may overlap across types; not disease incidence or model accuracy
+2025,wet_environment,持续湿润环境关注,365,25,19,6.84931507,6,Screened days may overlap across types; not disease incidence or model accuracy
+2025,warm_anomaly,偏热背景关注,365,9,5,2.46575342,4,Screened days may overlap across types; not disease incidence or model accuracy
+2025,cold_anomaly,偏冷背景关注,365,9,2,2.46575342,4,Screened days may overlap across types; not disease incidence or model accuracy

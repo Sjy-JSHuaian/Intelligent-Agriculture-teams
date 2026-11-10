@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" dir="ltr"><!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/data/chirps3" />
+<link rel="shortlink" href="/node/497" />
+<link rel="shortcut icon" href="https://www.chc.ucsb.edu/sites/default/themes/at_lsit/images/department/ucsb_favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>CHIRPS: Rainfall Estimates from Rain Gauge and Satellite Observations | Climate Hazards Center - UC Santa Barbara</title>
+<link type="text/css" rel="stylesheet" href="https://www.chc.ucsb.edu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.chc.ucsb.edu/sites/default/files/css/css_-TNq6F6EH1K3WcBMUMQP90OkyCq0Lyv1YnyoEj3kxiU.css" media="screen" />
+<style type="text/css" media="print">
+<!--/*--><![CDATA[/*><!--*/
+#sb-container{position:relative;}#sb-overlay{display:none;}#sb-wrapper{position:relative;top:0;left:0;}#sb-loading{display:none;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="https://www.chc.ucsb.edu/sites/default/files/css/css_1ccRKzGXbpRzrJt98XQnBZuRW1jan97gM5Gk1dNQBEw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.chc.ucsb.edu/sites/default/files/css/css_XId-c_EDq8ia0ymOmGUFvaHLxDGuYMvkUl-J4CiABUI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.chc.ucsb.edu/sites/default/files/css/css_OZCjD5jV2gzZmNV9tB5N8fTBDSlTVW43UXPf_Tycl8Y.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://www.chc.ucsb.edu/sites/default/files/css/css_iAdZwHhO5F4iIljm6zjDL_AW7dPxBWE7tPCVKqn_UM8.css" media="print" />
+<link type="text/css" rel="stylesheet" href="https://www.chc.ucsb.edu/sites/default/files/css/css_AMgnxzSkwnHYeR4SzHBM-dzVEw-U_Y_4YN6FSrzg60c.css" media="only screen" />
+<link type="text/css" rel="stylesheet" href="https://www.chc.ucsb.edu/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://www.chc.ucsb.edu/sites/default/files/css/css_vPFlc9PHx_vZSm10klWlEH8ytKo1Md0KB_7Avo3CofY.css" media="only screen" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="https://www.chc.ucsb.edu/sites/default/files/css/css_PupRN8ZiNt6RR0DT0cvYfumf_nFtI-u10xgrear55do.css" media="screen" />
+<![endif]-->
+<script type="text/javascript" src="https://www.chc.ucsb.edu/sites/default/files/js/js_YD9ro0PAqY25gGWrTki6TjRUG8TdokmmxjfqpNNfzVU.js"></script>
+<script type="text/javascript" src="https://www.chc.ucsb.edu/sites/default/files/js/js_HBgoJGy-DJUx1rDgUqV2okXy_4XVcb_Epce7jgIUgEY.js"></script>
+<script type="text/javascript" src="https://www.chc.ucsb.edu/sites/default/files/js/js_waP91NpgGpectm_6Y2XDEauLJ8WCSCBKmmA87unpp2E.js"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-MFRF3SY6HL"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-MFRF3SY6HL", {"groups":"default","anonymize_ip":true});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.chc.ucsb.edu/sites/default/files/js/js_jdzTyrP-kBtMveH1F26NMumzvz4kV3ehK9wsPnO-u-I.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+          Shadowbox.path = "/sites/all/libraries/shadowbox/";
+        
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"adaptivetheme_lsit","theme_token":"sW73N6DbRF3DvdzA4vM7jR1S5Uay5sIUpmyViADFMGY","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/shadowbox\/shadowbox.js":1,"sites\/all\/modules\/shadowbox\/shadowbox_auto.js":1,"misc\/form-single-submit.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"https:\/\/www.googletagmanager.com\/gtag\/js?id=G-MFRF3SY6HL":1,"0":1,"sites\/default\/themes\/at_lsit\/scripts\/lsit_base.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/shadowbox\/shadowbox.css":1,"0":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"public:\/\/ctools\/css\/18b5889f3df44722765e66a79acf9d2c.css":1,"sites\/all\/themes\/adaptivetheme\/at_core\/css\/at.layout.css":1,"sites\/default\/themes\/at_lsit\/css\/lsit.base.css":1,"sites\/default\/themes\/at_lsit\/css\/global.base.css":1,"sites\/default\/themes\/at_lsit\/css\/global.styles.css":1,"sites\/default\/themes\/at_lsit\/css\/dept.styles.css":1,"sites\/default\/themes\/at_lsit\/css\/print.css":1,"public:\/\/adaptivetheme\/adaptivetheme_lsit_files\/adaptivetheme_lsit.responsive.layout.css":1,"public:\/\/adaptivetheme\/adaptivetheme_lsit_files\/adaptivetheme_lsit.fonts.css":1,"public:\/\/adaptivetheme\/adaptivetheme_lsit_files\/adaptivetheme_lsit.responsive.styles.css":1,"public:\/\/adaptivetheme\/adaptivetheme_lsit_files\/adaptivetheme_lsit.lt-ie9.layout.css":1}},"shadowbox":{"animate":1,"animateFade":1,"animSequence":"sync","auto_enable_all_images":0,"auto_gallery":0,"autoplayMovies":false,"continuous":0,"counterLimit":"10","counterType":"default","displayCounter":1,"displayNav":1,"enableKeys":1,"fadeDuration":"0.35","handleOversize":"resize","handleUnsupported":"link","initialHeight":160,"initialWidth":320,"language":"en","modal":false,"overlayColor":"#000","overlayOpacity":"0.85","resizeDuration":"0.35","showMovieControls":1,"slideshowDelay":"0","viewportPadding":20,"useSizzle":0},"googleanalytics":{"account":["G-MFRF3SY6HL"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/search\/node":true},"adaptivetheme":{"adaptivetheme_lsit":{"layout_settings":{"bigscreen":"three-col-grail","tablet_landscape":"three-col-grail","tablet_portrait":"one-col-vert","smalltouch_landscape":"one-col-vert","smalltouch_portrait":"one-col-stack"},"media_query_settings":{"bigscreen":"only screen and (min-width:959px)","tablet_landscape":"only screen and (min-width:769px) and (max-width:1024px)","tablet_portrait":"only screen and (min-width:481px) and (max-width:768px)","smalltouch_landscape":"only screen and (min-width:321px) and (max-width:480px)","smalltouch_portrait":"only screen and (max-width:320px)"}}}});
+//--><!]]>
+</script>
+<!--[if lt IE 9]>
+<script src="https://www.chc.ucsb.edu/sites/all/themes/adaptivetheme/at_core/scripts/html5.js?to7ft6"></script>
+<![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-497 node-type-panel atr-7.x-3.x atv-7.x-3.1 site-name-climate-hazards-center---uc-santa-barbara section-data">
+  <div id="skip-link" class="nocontent">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper">
+  <div id="page" class="container page">
+
+    <!-- !Leaderboard Region -->
+    <div class="region region-leaderboard"><div class="region-inner clearfix"><div id="block-block-29" class="block block-block no-title odd first last block-count-1 block-region-leaderboard block-29" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div><a href="http://www.ucsb.edu">University of California, Santa Barbara</a></div>
+</div>
+  </div></div></div></div>
+    <header id="header" class="clearfix" role="banner">
+
+              <!-- !Branding -->
+        <div id="branding" class="branding-elements clearfix">
+
+                      <div id="logo">
+              <a href="/"><img class="site-logo" src="https://www.chc.ucsb.edu/sites/default/themes/at_lsit/images/department/CHC_alt_UCSB_logo_color.png" alt="Climate Hazards Center - UC Santa Barbara" /></a>            </div>
+          
+                      <!-- !Site name and Slogan -->
+            <div class="h-group" id="name-and-slogan">
+
+                              <h1 id="site-name"><a href="/" title="Home page">Climate Hazards Center - UC Santa Barbara</a></h1>
+              
+              
+            </div>
+          
+        </div>
+      
+      <!-- !Header Region -->
+      
+    </header>
+
+    <!-- !Navigation -->
+        <div id="primary-menu-bar" class="nav clearfix"><nav  class="primary-menu-wrapper menu-wrapper clearfix" role="navigation" aria-labelledby="primary-menu"><h2 class="element-invisible" id="primary-menu">Main menu</h2><ul class="menu primary-menu clearfix"><li class="menu-3935 first"><a href="/about" title="About the Climate Hazards Center">About</a></li><li class="menu-3715"><a href="/people">People</a></li><li class="menu-3936"><a href="/research" title="Publications">Publications</a></li><li class="menu-3937"><a href="/tools" title="Tools">Tools</a></li><li class="menu-3938"><a href="/data" title="Data Sets">Data Sets</a></li><li class="menu-3939"><a href="/monitoring" title="Monitoring and Forecasting">Monitoring and Forecasting</a></li><li class="menu-3730"><a href="/news">News</a></li><li class="menu-3981"><a href="/activities" title="Activities">Activities</a></li><li class="menu-3974"><a href="http://blog.chc.ucsb.edu/" title="Climate Hazards Blog - http://blog.chc.ucsb.edu/">CHC Blog</a></li><li class="menu-3978 last"><a href="/search" title="Search">Search</a></li></ul></nav></div>    
+    <!-- !Breadcrumbs -->
+    
+    <!-- !Messages and Help -->
+        
+    <!-- !Secondary Content Region -->
+    
+    <div id="columns" class="columns clearfix">
+      <main id="content-column" class="content-column" role="main">
+        <div class="content-inner">
+
+          <!-- !Highlighted region -->
+          
+          <section id="main-content">
+
+            
+            <!-- !Main Content Header -->
+                          <header id="main-content-header" class="clearfix">
+
+                                  <h1 id="page-title">
+                    CHIRPS: Rainfall Estimates from Rain Gauge and Satellite Observations                  </h1>
+                
+                
+              </header>
+            
+            <!-- !Main Content -->
+                          <div id="content" class="region">
+                <div id="block-system-main" class="block block-system no-title odd first last block-count-2 block-region-content block-main" >  
+  
+  <article id="node-497" class="node node-panel article even node-full clearfix" role="article">
+  
+  
+  
+  <div class="node-content">
+    <div class="panel-flexible panels-flexible-98 clearfix" >
+<div class="panel-flexible-inside panels-flexible-98-inside">
+<div class="panels-flexible-region panels-flexible-region-98-center panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-98-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-node no-title block">
+  <div class="block-inner clearfix">
+    
+            
+    
+    <div class="block-content">
+      <article id="node-532" class="node node-page article odd node-full clearfix" role="article">
+  
+  
+  
+  <div class="node-content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><div class="field-item even">
+<h2>CHIRPS v3</h2>
+<div>The Climate Hazards Center Infrared Precipitation with Stations (CHIRPS v3) is a 40+ year, high-resolution quasi-global rainfall dataset. It spans 60°N to 60°S and covers all longitudes, providing data from 1981 to near-present. CHIRPS v3 combines satellite-based thermal infrared rainfall estimates (CHIRP) with in-situ station observations to produce a 0.05° gridded rainfall time series over land.</div>
+<div> </div>
+<div>Two CHIRPS v3 products are available – a rapidly updated preliminary product and a final product. CHIRPS v3 Preliminary incorporates rapidly updated station observations and is available 2 days after the end of a pentad (on the 2nd, 7th, 12th, 17th, 22nd and 27th day of each month) – see the full list of CHIRPS v3 preliminary station sources here (<a href="https://data.chc.ucsb.edu/products/CHIRPS/v3.0/README-CHIRPSv3.0.txt">https://data.chc.ucsb.edu/products/CHIRPS/v3.0/README-CHIRPSv3.0.txt</a>). The CHIRPS v3 final product blends in best available station inputs and is produced once a month, typically on the third week of the following month. The dataset covers the global domain, with additional sub-domain products available for Africa and Latin America.</div>
+<div> </div>
+<div>CHIRPS v3 is available in several formats (GeoTIFF, NetCDF, BIL, and COG) and multiple timesteps (daily, pentad, dekad, monthly and annual). CHIRPS is fundamentally a pentad and monthly product, and all other time-steps are derived from those. Based on two different ways of downscaling CHIRPS v3, we provide two different daily products: A reanalysis 'rnl' and a satellite 'sat' product. The 'rnl' uses daily precipitation from the ECMWF ERA Reanalysis v5 (ERA5) data product to partition pentadal CHIRPS v3 precipitation totals into daily amounts. The 'sat' uses daily precipitation from the NASA IMERG Late V07 data product (IMERG) to partition pentadal CHIRPS v3 precipitation totals into daily amounts. Station observations incorporated into CHIRPS are obtained from many sources, and for most stations, we do not have sufficient information to determine the corresponding local-day observation window. Therefore, the date associated with a daily CHIRPS value should be interpreted as a consistent date label assigned during the disaggregation process, rather than as representing a uniform observation window across all contributing station datasets. This convention is applied consistently throughout the daily record from 1981 to present.</div>
+<div> </div>
+<div>Here is a Google Earth Engine script that: 1. compares the two versions of daily CHIRPS v3 datasets and, 2. compares daily CHIRPS v3 totals with pentadal totals to show that the daily 'rnl' and 'sat' data add up to the same amount for the pentadal (here a 5-day) total <a href="https://code.earthengine.google.com/5a671f5001a319cc4307cc6c9cb1b45a">https://code.earthengine.google.com/5a671f5001a319cc4307cc6c9cb1b45a</a></div>
+<div> </div>
+<div>More information about the CHIRPS v3 daily product can be found at <a href="https://data.chc.ucsb.edu/products/CHIRPS/v3.0/daily/readme.txt">https://data.chc.ucsb.edu/products/CHIRPS/v3.0/daily/readme.txt</a>.</div>
+<div> </div>
+<div> </div>
+<!-- Toggle Button --><p><button aria-controls="chirps-data-access" aria-expanded="false" class="button toggle-btn">CHIRPS Data Access</button></p>
+<div class="content" hidden="" id="chirps-data-access">
+<div>1. CHC Data Repository: <a href="https://data.chc.ucsb.edu/products/CHIRPS/v3.0/"> https://data.chc.ucsb.edu/products/CHIRPS/v3.0/ </a></div>
+<div><a href="https://data.chc.ucsb.edu/products/CHIRPS/v3.0/pentads/">Pentad</a>, <a href="https://data.chc.ucsb.edu/products/CHIRPS/v3.0/dekads/">Dekad</a>, <a href="https://data.chc.ucsb.edu/products/CHIRPS/v3.0/daily/">Daily</a>, <a href="https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/">Monthly</a>, <a href="https://data.chc.ucsb.edu/products/CHIRPS/v3.0/2-monthly/">2-Monthly</a>, <a href="https://data.chc.ucsb.edu/products/CHIRPS/v3.0/3-monthly/">3-Monthly</a>, <a href="https://data.chc.ucsb.edu/products/CHIRPS/v3.0/4-monthly/">4-Monthly</a>, <a href="https://data.chc.ucsb.edu/products/CHIRPS/v3.0/5-monthly/">5-Monthly</a>, <a href="https://data.chc.ucsb.edu/products/CHIRPS/v3.0/6-monthly/">6-Monthly</a></div>
+<div> </div>
+<div>2. The Early Warning Explorer (EWX): USGS (<a href="https://earlywarning.usgs.gov/fews/ewx/index.html">https://earlywarning.usgs.gov/fews/ewx/index.html</a>) and CHC (<a href="https://ewx3.chc.ucsb.edu/ewx/index.html">https://ewx3.chc.ucsb.edu/ewx/index.html</a>). The EWX is a user-friendly tool to visualize, subset, analyze, plot, and download time series and maps (pngs and tifs) of CHIRPS and other data products.</div>
+<div> </div>
+<div>3. CHC Early Estimates: <a href="https://www.chc.ucsb.edu/monitoring/early-estimates"> https://www.chc.ucsb.edu/monitoring/early-estimates</a>. Regional rainfall maps (pngs and tifs) designed to support early warning of anomalous rainfall conditions that can impact agriculture and livelihoods. The CHC Early Estimates use a combination of CHIRPS, Preliminary CHIRPS, and the CHIRPS-GEFS 15-day forecast.</div>
+<div> </div>
+<div>4. Google Earth Engine:</div>
+<div><a href="https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHC_CHIRPS_V3_PENTAD">Pentad</a>, Daily (<a href="https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHC_CHIRPS_V3_DAILY_RNL">Reanalysis-based</a>, <a href="https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHC_CHIRPS_V3_DAILY_SAT">Satellite-based</a>)</div>
+</div>
+<p><button aria-controls="chirps-v3-updates" aria-expanded="false" class="button toggle-btn">CHIRPS v3 Updates</button></p>
+<div class="content" hidden="" id="chirps-v3-updates">
+<h2><strong>Updates to CHIRP</strong></h2>
+<div>While many studies have shown that CHIRPS v2 performs well, we have identified and addressed an important shortcoming in CHIRP, the satellite-estimated component of CHIRPS. The regression formula used in CHIRP version 2 provided reasonable estimates and represented mean rainfall very well, however, it had a tendency to underestimate temporal precipitation variance. </div>
+<div>The new CHIRP3 algorithm also estimates precipitation from geostationary satellite thermal infrared measurements of cold cloud duration (CCD), but version 3 performs better when it comes to estimating a wider range of precipitation values. This feature is especially useful for capturing high rainfall amounts of large, impactful, or out-of-season storms.</div>
+<div> </div>
+<p style="margin: 0; padding: 0;">CHIRP algorithm basics:</p>
+<p></p>
+<table style="border-width: initial; border-style: none; border-color: initial; border-collapse: collapse; table-layout: fixed; width: 468pt;">
+<colgroup>
+				<col /></colgroup>
+<colgroup>
+				<col /></colgroup>
+<tbody>
+<tr style="height:0pt">
+<td style="border-left:solid #000000 1pt;border-right:solid #000000 1pt;border-bottom:solid #000000 1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;">CHIRP version 3.0 </td>
+<td style="border-left:solid #000000 1pt;border-right:solid #000000 1pt;border-bottom:solid #000000 1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;">CHIRP version 2.0 </td>
+</tr>
+<tr style="height:0pt">
+<td style="border-left:solid #000000 1pt;border-right:solid #000000 1pt;border-bottom:solid #000000 1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;">
+<p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;">CHIRP3 <span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; white-space-collapse: preserve; font-size: 11pt; font-family: &quot;Times New Roman&quot;, serif; vertical-align: baseline;">∝</span><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; white-space-collapse: preserve; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;"> b2*CCD</span></p>
+<p dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;"><span id="docs-internal-guid-6350d75f-7fff-b169-2c5a-e62775950dcf"><span style="font-size: 11pt; font-family: Calibri, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;">Where </span></span></p>
+<p dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;"><span id="docs-internal-guid-6350d75f-7fff-b169-2c5a-e62775950dcf"><span style="font-size: 11pt; font-family: Calibri, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;">b2 = (CHPClim2 + 6) / (MeanCCD + 2)</span></span></p>
+</td>
+<td style="border-left:solid #000000 1pt;border-right:solid #000000 1pt;border-bottom:solid #000000 1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;">
+<p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;">CHIRP2 <span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; white-space-collapse: preserve; font-size: 11pt; font-family: &quot;Times New Roman&quot;, serif; vertical-align: baseline;">∝</span><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; white-space-collapse: preserve; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;"> b0 + b1*CCD</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><strong>Updates to the Climate Hazards Precipitation Climatology (CHPclimv2)</strong></h2>
+<div>CHIRPS v3 uses a more reliable, high-resolution climatology, CHPclim2, which builds upon the foundation of CHPclim. The 1991-2020 CHPclim2 monthly climatology fields incorporate IMERG v6 Final inputs for enhanced precipitation estimates, and gauge-undercatch corrected station normals to account for systematic biases resulting in an increased mean rainfall. CHIRPS v3 incorporates substantially more climate normals compared to CHIRPS v2. </div>
+<div> </div>
+<h2><strong>Station observations</strong></h2>
+<p style="margin-left: 40px;"><strong>1. Gauge-undercatch corrected station observations</strong></p>
+<p><strong>​</strong>A notable change in CHIRPS3 is the transition to gauge-undercatch corrected station observations. CHIRPS3 uses the Legates-Willmott correction factor to account for systematic biases in gauge measuring errors. When comparing CHIRPS3 to station observations, CHC recommends using gauge-corrected station data. The Legates monthly scaling grids are available for download at <a href="https://data.chc.ucsb.edu/products/CHIRPS/v3.0/diagnostics/legates-willmott_corrections/">https://data.chc.ucsb.edu/products/CHIRPS/v3.0/diagnostics/legates-willm...</a></p>
+<p style="margin-left: 40px;"><strong>2. More station observations</strong></p>
+<div>Through new collaborations between the CHC and partner institutions the number of sources and routinely updated station observations assimilated by CHC has increased substantially. CHIRPS v3 benefits from nearly four times more sources of gauge data compared to CHIRPS v2. This increased volume of observations significantly improves the spatial and temporal accuracy of rainfall estimates.</div>
+<div style="margin-left: 50px;">
+			<video autoplay="" controls="" height="500" loop="" muted="" width="1000"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"> Your browser does not support the video tag. </source></video>
+		</div>
+<p><em>                       A comparison between CHIRPS2 and CHIRPS3 global annual mean station counts from 1981 to 2024.</em></p>
+<p> </p>
+<p>The Climate Hazards Center currently maintains one of the largest rainfall station archives in the world.</p>
+<p><img height="260" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdWsOIayfl7KdXA86pn14bnWzV7y_4QpzWZXwGmtFZduIOZV8htHnB4Mpjkpcy-9YCiL-n2sVYghek-DAnfzjC37lA4Gno-HGsQy0q4bUoJ35UV-UQQXqc3zeFXpIwoXe426-JFXs2toAl8pT6bz_A?key=7CAw2i3UGO32bbCg87lb5uZu" style="font-family: Arial, sans-serif; font-size: 14.6667px; margin-left: 40px; margin-top: 0px;" width="624" /></p>
+<p><em>                      Monthly station counts for CHIRPS v2.0, CHIRPS v3.0, and GPCC v2022 in thousands.</em></p>
+<p> </p>
+<p>CHIRPS v3.0 replaces the widely used CHIRPS v2.0. To support users during this transition, the production of CHIRPS v2.0 will continue through 2026.</p>
+</div>
+<div>
+<p><button aria-controls="chirpsv3-mailinglist" aria-expanded="false" class="button toggle-btn">Sign up for CHIRPS v3 Updates</button></p>
+<div class="content" hidden="" id="chirpsv3-mailinglist">
+<iframe frameborder="0" height="800" marginheight="0" marginwidth="0" src="https://docs.google.com/forms/d/e/1FAIpQLSfw94dWH7qtcJWGTse_VbPYn1zpEiyvcoYeCE334Q5qGFcqUw/viewform?embedded=true" width="640">Loading&amp;hellip;</iframe></div>
+</div>
+<div>
+<p><button aria-controls="additional_resources" aria-expanded="false" class="button toggle-btn">Additional Resources</button></p>
+<div class="content" hidden="" id="additional_resources">
+<p>1. A comprehensive overview of CHIRPS v3 is also available at the NSF NCAR Climate Data Guide: <a href="https://climatedataguide.ucar.edu/climate-data/chirps-climate-hazards-infrared-precipitation-station-data-version-3">https://climatedataguide.ucar.edu/climate-data/chirps-climate-hazards-in...</a></p>
+<p>2. Watch a recorded presentation on the CHIRPS and CHIRTS datasets by <a href="https://chc.ucsb.edu/people/shraddhanand-shukla/" target="_blank"> Dr. Shradhanand Shukla</a>, at a <a href="https://agingclimatehealth.org/cache-online-seminars/" target="_blank">seminar</a> hosted by the Center for Aging, Health and Environment at the University of Colorado Boulder. <a href="https://www.youtube.com/watch?v=vg83GhNlFGo">https://www.youtube.com/watch?v=vg83GhNlFGo</a></p>
+</div>
+<h1>Data Citation</h1>
+<p>Climate Hazards Center Infrared Precipitation with Stations version 3 (CHIRPS3) Data Repository: <a href="https://doi.org/10.15780/G2JQ0P" rel="noopener noreferrer" target="_blank"> https://doi.org/10.15780/G2JQ0P </a> (2025). Data was accessed on [DATE].</p>
+<p>Funk, C., Peterson, P., Harrison, L., Saldivar, R., Landsfeld, M., Pedreros, D., Shukla, S., Fink, A. H., Davenport, F., Peterson, S., Turner, W., Sonnier, A., Budde, M., Tabor, K., Verdin, J., Hauzaree, N. D., Naim, M., Alaso, D., &amp; Husak, G. (2026). The Climate Hazards Center Infrared Precipitation with Stations, Version 3. Sci Data 13, 718 (2026). <a href="https://www.nature.com/articles/s41597-026-07096-4">https://doi.org/10.1038/s41597-026-07096-4</a></p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/" rel="license" target="_blank"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/4.0/88x31.png" style="border:0;" /> </a><br />
+			CHIRPS3 is in the public domain, as registered with Creative Commons, and is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license" target="_blank"> Creative Commons Attribution 4.0 International License </a>. To the extent possible under the law, the Climate Hazards Center has waived all copyright and related or neighboring rights to CHIRPS3. This work is published from the United States.</p>
+<p> </p>
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  .button {
+    width: 400px;
+    height: 36px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    padding: 6px 20px;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #0059b3;
+  }
+
+  .content {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }		
+/*--><!]]>*/
+</style><script>
+<!--//--><![CDATA[// ><!--
+
+  // Select all buttons with the class 'toggle-btn'
+  const toggleButtons = document.querySelectorAll('.toggle-btn');
+
+  toggleButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const contentId = button.getAttribute('aria-controls');
+      const contentDiv = document.getElementById(contentId);
+
+      const isHidden = contentDiv.hasAttribute('hidden');
+
+      if (isHidden) {
+        contentDiv.removeAttribute('hidden');
+        button.setAttribute('aria-expanded', 'true');
+      } else {
+        contentDiv.setAttribute('hidden', '');
+        button.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+
+//--><!]]>
+</script><p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
+</div>
+<p><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"></source></p>
+<p><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"></source></p>
+<p>	<source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"></source></p>
+<p><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"> </source></p>
+<p>	<source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"></source></source></p>
+<p><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"></source></p>
+<p>	<source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"></source></source></source></p>
+<p><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"> </source></p>
+<p>	<source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"></source></source></source></source></p>
+<p><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"></source></p>
+<p>	<source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"></source></source></source></source></source></p>
+<p><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"> </source></p>
+<p>	<source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"></source></source></source></source></source></source></p>
+<p><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"></source></p>
+<p>	<source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"></source></source></source></source></source></source></source></p>
+<p><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"> </source></p>
+<p>	<source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"><source src="https://data.chc.ucsb.edu/people/dcalaso/CHIRPScombined_mp4.mp4" type="video/mp4"></source></source></source></source></source></source></source></source></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>	</p>
+</div></div></div>  </div>
+
+  
+  
+  </article>
+    </div>
+
+    
+    
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+  </div>
+
+  
+  
+  </article>
+
+  </div>              </div>
+            
+            <!-- !Feed Icons -->
+            
+            
+          </section><!-- /end #main-content -->
+
+          <!-- !Content Aside Region-->
+          
+        </div><!-- /end .content-inner -->
+      </main><!-- /end #content-column -->
+
+      <!-- !Sidebar Regions -->
+            
+    </div><!-- /end #columns -->
+
+    <!-- !Tertiary Content Region -->
+    
+    <!-- !Footer -->
+          <footer id="footer" class="clearfix" role="contentinfo">
+        <div class="region region-footer"><div class="region-inner clearfix"><div id="block-block-25" class="block block-block no-title odd first block-count-3 block-region-footer block-25" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><p>Climate Hazards Center<br />
+	UC Santa Barbara<br />
+	Santa Barbara, CA 93106<br />
+	Contact Us: <a href="mailto:chc-help@geog.ucsb.edu">chc-help@geog.ucsb.edu</a></p>
+</div>
+  </div></div><div id="block-block-32" class="block block-block no-title even block-count-4 block-region-footer block-32" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><ul>
+<li><a href="https://x.com/climatehazards" target="_blank" title="X"><img alt="X" src="/sites/default/themes/at_lsit/images/department/logo-white.png" style="width: 50px; height: 51px;" /></a></li>
+<li><a href="https://www.facebook.com/climatehazardscenter/?modal=admin_todo_tour" target="_blank" title="Facebook"><img alt="Facebook" src="/sites/default/themes/at_lsit/images/department/facebook.png" style="width: 144px; height: 144px;" /></a></li>
+<li><a href="https://www.instagram.com/ucsb_chc/?hl=en" target="_blank" title="Instagram"><img alt="Instagram" src="/sites/default/themes/at_lsit/images/department/instagram.png" style="width: 144px; height: 144px;" /></a></li>
+<li><a href="https://www.linkedin.com/company/climate-hazards-center/about/?viewAsMember=true" target="_blank" title="LinkedIn"><img alt="Facebook" src="/sites/default/themes/at_lsit/images/department/linkedin100.png" style="width: 144px; height: 144px;" /></a></li>
+</ul>
+</div>
+  </div></div><nav id="block-menu-secondary-menu" class="block block-menu no-title odd block-count-5 block-region-footer block-secondary-menu"  role="navigation"><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><ul class="menu clearfix"><li class="first leaf menu-depth-1 menu-item-3731"><a href="http://www.college.ucsb.edu" title="College of Letters and Science">College of Letters and Science</a></li><li class="leaf menu-depth-1 menu-item-3732"><a href="http://www.ucsb.edu" title="UC Santa Barbara">UC Santa Barbara</a></li><li class="leaf menu-depth-1 menu-item-3745"><a href="/accessibility" title="Accessibility">Accessibility</a></li><li class="leaf menu-depth-1 menu-item-3734"><a href="https://www.ucsb.edu/terms-of-use" title="Appropriate Use">Appropriate Use</a></li><li class="leaf menu-depth-1 menu-item-3795"><a href="https://www.privacy.ucsb.edu/information-privacy/website-privacy" title="Privacy">Privacy</a></li><li class="leaf menu-depth-1 menu-item-3735"><a href="mailto:jwayhenthorne@ucsb.edu" title="Webmaster">Webmaster</a></li><li class="last leaf menu-depth-1 menu-item-3984"><a href="https://map.ucsb.edu/" title="Campus Map">Campus Map</a></li></ul></div>
+  </div></nav><div id="block-block-21" class="block block-block no-title even last block-count-6 block-region-footer block-21" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><ul>
+<li>&copy;2026</li>
+<li>The Regents of the University of California.</li>
+<li>All Rights Reserved.</li>
+<li>UC Santa Barbara, Santa Barbara, CA 93106</li>
+</ul>
+</div>
+  </div></div></div></div>              </footer>
+    
+  </div>
+</div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "site_id": "jiabang_initial_aoi",
+  "rule_version": "jiabang-screen-v1.0",
+  "reference_start": "2021-01-01",
+  "reference_end": "2023-12-31",
+  "monitor_start": "2024-01-01",
+  "minimum_reference_samples": 120,
+  "seasonal_month_half_window": 1,
+  "wet_day_mm": 1.0,
+  "wet_environment_min_wet_days_7d": 4,
+  "max_image_age_days": 3,
+  "mode": "historical_replay",
+  "notes": "Quantile screening rules, not validated disease/disaster thresholds; no field labels or live data availability timestamps."
+}

@@ -1,0 +1,5 @@
+{
+  "pytest_exit_code": 0,
+  "elapsed_seconds": 4.41,
+  "scope": "Weather data handling, reference-period isolation, temporal causality, A field contracts, B polygon validation and FastAPI TestClient. No live A/B server, database or aircraft test."
+}

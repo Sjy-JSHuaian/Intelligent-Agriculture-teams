@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jiabang_initial_aoi",
+        "role": "initial_extraction_rectangle",
+        "not_field_or_administrative_boundary": true,
+        "crs_verified": false,
+        "coordinate_transform_applied": false,
+        "working_crs_assumption": "Supplied coordinates provisionally interpreted as WGS84",
+        "flight_ready": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              108.56,
+              25.58
+            ],
+            [
+              108.62,
+              25.58
+            ],
+            [
+              108.62,
+              25.625
+            ],
+            [
+              108.56,
+              25.625
+            ],
+            [
+              108.56,
+              25.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "J01",
+        "role": "regional_background_request",
+        "crs_verified": false,
+        "coordinate_transform_applied": false,
+        "working_crs_assumption": "Supplied coordinates provisionally interpreted as WGS84",
+        "flight_ready": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.586886,
+          25.602516
+        ]
+      }
+    }
+  ]
+}

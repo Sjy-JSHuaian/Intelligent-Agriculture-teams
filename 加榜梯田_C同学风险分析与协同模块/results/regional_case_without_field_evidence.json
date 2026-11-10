@@ -1,0 +1,67 @@
+{
+  "mode": "historical_evidence_review",
+  "as_of_date": "2025-06-24",
+  "regional_candidates": [
+    {
+      "date": "2025-06-24",
+      "site_id": "jiabang_initial_aoi",
+      "event_type": "rainfall",
+      "event_name": "集中降雨关注",
+      "screen_level": 2,
+      "status": "candidate",
+      "indicator_values": {
+        "chirps_rain_3d_mm": 240.67741013
+      },
+      "thresholds": {
+        "rain_3d_q90_mm": 65.27652645,
+        "rain_3d_q95_mm": 80.42536472750001
+      },
+      "missing_inputs": [],
+      "nasa_rainfall_same_date_support": true,
+      "rule_version": "jiabang-screen-v1.0",
+      "phase": "held_out_frozen",
+      "spatial_support": "regional_background",
+      "evidence_status": "weather_screen_only",
+      "inspection_topic": "核查排水口、沟渠和田埂",
+      "is_diagnosis": false,
+      "is_forecast": false
+    },
+    {
+      "date": "2025-06-24",
+      "site_id": "jiabang_initial_aoi",
+      "event_type": "wet_environment",
+      "event_name": "持续湿润环境关注",
+      "screen_level": 1,
+      "status": "candidate",
+      "indicator_values": {
+        "rh_7d_pct": 92.02857142857142,
+        "nasa_wet_days_7d": 7.0
+      },
+      "thresholds": {
+        "rh_q90_pct": 90.91357142857143,
+        "rh_q95_pct": 92.03750000000001,
+        "min_wet_days_7d": 4
+      },
+      "missing_inputs": [],
+      "nasa_rainfall_same_date_support": null,
+      "rule_version": "jiabang-screen-v1.0",
+      "phase": "held_out_frozen",
+      "spatial_support": "regional_background",
+      "evidence_status": "weather_screen_only",
+      "inspection_topic": "核查长势与叶片异常，结合人工农艺判断",
+      "is_diagnosis": false,
+      "is_forecast": false
+    }
+  ],
+  "accepted_image_observations": [],
+  "quarantined_observations": [],
+  "inspection_requests": [],
+  "plots_without_local_evidence": [],
+  "missing_inputs": [
+    "verified_plot_boundaries",
+    "dated_geolocated_image_or_local_evidence"
+  ],
+  "is_forecast": false,
+  "live_data_availability_verified": false,
+  "note": "Historical daily review; coarse weather is shared background. No executable flight or chemical prescription."
+}

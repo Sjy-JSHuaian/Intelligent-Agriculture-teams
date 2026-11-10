@@ -1,0 +1,36 @@
+{
+  "demo_mode": true,
+  "as_of_date": "2025-01-01",
+  "note": "完全虚构的田块/图像/灌排信息，仅用于接口测试；区域天气来自已下载历史数据。不可作为加榜实测案例。",
+  "plots": {
+    "type": "FeatureCollection",
+    "features": [{
+      "type": "Feature",
+      "properties": {
+        "plot_id": "SYNTHETIC_PLOT_001", "site_id": "jiabang_initial_aoi",
+        "crs": "EPSG:4326", "crs_verified": true, "boundary_verified": true,
+        "boundary_source": "SYNTHETIC TEST POLYGON; not a surveyed terrace",
+        "is_synthetic": true,
+        "drainage_problem": {"present": true,"verified": true,"observed_at": "2025-01-01T11:00:00+08:00", "source_reference": "SYNTHETIC TEST NOTE"}
+      },
+      "geometry": {"type":"Polygon","coordinates":[[[108.586,25.602],[108.587,25.602],[108.587,25.603],[108.586,25.603],[108.586,25.602]]]}
+    }]
+  },
+  "a_observations": [{
+    "metadata": {
+      "observation_id":"SYNTHETIC_IMAGE_001","plot_id":"SYNTHETIC_PLOT_001",
+      "site_id":"jiabang_initial_aoi","captured_at":"2025-01-01T10:00:00+08:00",
+      "image_scope":"single_plot_crop","location_verified":true,"plot_association_verified":true,
+      "source_reference":"SYNTHETIC API CONTRACT TEST","is_synthetic":true
+    },
+    "response": {
+      "success":true,"status":"success","message":"SYNTHETIC DATA",
+      "data":{
+        "filename":"synthetic_contract_test.png","width":256,"height":256,
+        "vegetation":{"vegetation_fraction_gli":0.7,"vegetation_fraction_vari":0.6,"index_statistics":{"VARI":{"mean":0.1,"std":0.2,"min":-1,"max":1}}},
+        "anomaly":{"low_vigor_fraction":0.05,"bare_land_fraction":0.02,"low_vigor_mask":"/files/api/SYNTHETIC/low_vigor.png","bare_land_mask":"/files/api/SYNTHETIC/bare_land.png"},
+        "segmentation":{"class_distribution":{"background":0.1,"building":0.02,"road":0.03,"water":0.05,"barren":0.05,"forest":0.05,"agriculture":0.7}}
+      }
+    }
+  }]
+}
