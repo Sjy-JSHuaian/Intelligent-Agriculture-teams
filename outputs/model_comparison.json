@@ -1,0 +1,28 @@
+[
+  {
+    "name": "unet",
+    "epoch": 7,
+    "params_m": 14.33,
+    "params_memory_mb": 57.3,
+    "model_size_mb": 57.4,
+    "inference_ms": 384.76,
+    "accuracy": 0.474,
+    "precision": 0.2996,
+    "recall": 0.2749,
+    "iou": 0.1536,
+    "dice": 0.2266
+  },
+  {
+    "name": "segformer",
+    "epoch": 7,
+    "params_m": 3.72,
+    "params_memory_mb": 14.9,
+    "model_size_mb": 14.9,
+    "inference_ms": 318.35,
+    "accuracy": 0.617,
+    "precision": 0.4576,
+    "recall": 0.4765,
+    "iou": 0.3136,
+    "dice": 0.4261
+  }
+]

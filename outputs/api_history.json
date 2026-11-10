@@ -1,0 +1,46 @@
+[
+  {
+    "type": "vegetation",
+    "filename": "2522.png",
+    "vegetation_fraction": 0.6974496841430664,
+    "id": "6e139d88f2ad",
+    "timestamp": "2026-11-05T23:01:41.801867"
+  },
+  {
+    "type": "vegetation",
+    "filename": "2522.png",
+    "vegetation_fraction": 0.6974496841430664,
+    "id": "de8e9a25b312",
+    "timestamp": "2026-11-05T23:03:24.038322"
+  },
+  {
+    "type": "predict",
+    "filename": "2522.png",
+    "class_distribution": {
+      "background": 0.2922,
+      "building": 0.2014,
+      "road": 0.0709,
+      "water": 0.0537,
+      "barren": 0.0,
+      "forest": 0.0,
+      "agriculture": 0.3817
+    },
+    "id": "3d13afb35ac1",
+    "timestamp": "2026-11-05T23:03:43.701556"
+  },
+  {
+    "type": "segmentation",
+    "filename": "2522.png",
+    "class_distribution": {
+      "background": 0.2922,
+      "building": 0.2014,
+      "road": 0.0709,
+      "water": 0.0537,
+      "barren": 0.0,
+      "forest": 0.0,
+      "agriculture": 0.3817
+    },
+    "id": "fe507fc67ad6",
+    "timestamp": "2026-11-05T23:03:44.140314"
+  }
+]
