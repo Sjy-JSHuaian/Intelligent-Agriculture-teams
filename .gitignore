@@ -1,0 +1,11 @@
+# 数据（18GB LoveDA 原始数据集，超出 GitHub 单文件/仓库上限）
+data/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# 压缩包
+*.zip
