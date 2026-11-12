@@ -1,0 +1,1 @@
+pyshp 未安装，跳过 shp 导出：No module named 'shapefile'

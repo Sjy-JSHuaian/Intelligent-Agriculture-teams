@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>成员A · 梯田无人机巡检仿真</title>
+<link rel="stylesheet" href="/static/vendor/leaflet.css" />
+<style>
+  :root{
+    --bg:#0f1720; --panel:#17212b; --panel2:#1e2a36; --text:#e8eef5;
+    --muted:#93a4b5; --line:#2b3a49; --red:#ef5350; --green:#66bb6a;
+    --orange:#ffa726; --blue:#4fc3f7;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif;background:var(--bg);color:var(--text);overflow:hidden}
+  header{height:58px;display:flex;align-items:center;justify-content:space-between;padding:0 18px;
+    background:linear-gradient(90deg,#111c26,#1b2a38);border-bottom:1px solid var(--line)}
+  header h1{font-size:16px;margin:0;letter-spacing:.5px}
+  header .sub{font-size:12px;color:var(--muted);margin-left:12px}
+  header a{color:var(--blue);font-size:12px;text-decoration:none;margin-left:14px}
+  .app{display:flex;height:calc(100% - 58px)}
+  aside{width:340px;min-width:340px;background:var(--panel);border-right:1px solid var(--line);
+    overflow-y:auto;padding:14px}
+  aside h2{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin:16px 0 8px}
+  .scene-btns{display:flex;flex-direction:column;gap:6px}
+  .scene-btn{text-align:left;background:var(--panel2);border:1px solid transparent;color:var(--text);
+    border-radius:8px;padding:9px 11px;cursor:pointer;font-size:13px;transition:.15s}
+  .scene-btn:hover{border-color:#3b5166}
+  .scene-btn.active{border-color:var(--blue);background:#1b3346}
+  .scene-btn small{display:block;color:var(--muted);font-size:11px;margin-top:3px}
+  .seg{display:flex;background:var(--panel2);border-radius:8px;padding:3px;gap:3px}
+  .seg button{flex:1;border:0;background:transparent;color:var(--muted);padding:7px;border-radius:6px;
+    cursor:pointer;font-size:12px}
+  .seg button.active{background:#2b4053;color:#fff}
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+  .card{background:var(--panel2);border-radius:8px;padding:8px 10px}
+  .card .k{font-size:10px;color:var(--muted)}
+  .card .v{font-size:16px;font-weight:600;margin-top:2px}
+  .card .u{font-size:10px;color:var(--muted);margin-left:2px}
+  .ok{color:var(--green)} .bad{color:var(--red)}
+  .legend{display:flex;flex-wrap:wrap;gap:8px 12px;font-size:11px;color:var(--muted)}
+  .legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+  .layers{display:flex;flex-direction:column;gap:6px;font-size:12px}
+  .layers label{display:flex;align-items:center;gap:7px;cursor:pointer;color:#c7d4e1}
+  .note{font-size:11px;color:var(--muted);line-height:1.7;margin-top:14px;
+    border-top:1px dashed var(--line);padding-top:10px}
+  #map{flex:1;background:#0b1116}
+  .leaflet-container{background:#0b1116;font-family:inherit}
+  .leaflet-popup-content{font-size:12px;line-height:1.7;color:#1b2430}
+  .leaflet-popup-content b{color:#0d47a1}
+  .badge{display:inline-block;padding:1px 6px;border-radius:10px;font-size:10px;margin-left:5px}
+  .b-low{background:#2e7d32;color:#fff}.b-medium{background:#ef6c00;color:#fff}.b-high{background:#c62828;color:#fff}
+  .empty{font-size:12px;color:var(--muted);padding:8px 0}
+</style>
+</head>
+<body>
+<header>
+  <div><h1>丘陵梯田无人机自主巡检仿真<span class="sub">成员A · 场景 / 航迹 / 覆盖 / 地块风险</span></div>
+  <div><a href="/api/scenes" target="_blank">/api/scenes</a><a href="/api/metrics" target="_blank">/api/metrics</a><a href="/docs" target="_blank">API 文档</a></div>
+</header>
+<div class="app">
+  <aside>
+    <h2>场景</h2>
+    <div class="scene-btns" id="sceneBtns"><div class="empty">加载中…</div></div>
+
+    <h2>算法</h2>
+    <div class="seg" id="methodSeg">
+      <button data-m="baseline">基线</button>
+      <button data-m="improved" class="active">改进</button>
+    </div>
+
+    <h2>本次任务指标</h2>
+    <div class="cards" id="cards"></div>
+
+    <h2>图层</h2>
+    <div class="layers">
+      <label><input type="checkbox" id="cbFields" checked> 地块边界与风险</label>
+      <label><input type="checkbox" id="cbTraj" checked> 航迹</label>
+      <label><input type="checkbox" id="cbCaps" checked> 拍照点</label>
+      <label><input type="checkbox" id="cbObs" checked> 道路 / 建筑 / 树木</label>
+    </div>
+
+    <h2>图例</h2>
+    <div class="legend">
+      <span><i style="background:#43a047"></i>低风险</span>
+      <span><i style="background:#fb8c00"></i>中风险</span>
+      <span><i style="background:#e53935"></i>高风险</span>
+      <span><i style="background:#e53935;height:3px"></i>改进航迹</span>
+      <span><i style="background:#90a4ae;height:3px"></i>基线航迹</span>
+      <span><i style="background:#ff9100;height:3px"></i>电线</span>
+      <span><i style="background:#4fc3f7;height:3px"></i>沟渠</span>
+    </div>
+
+    <div class="note">
+      底图为真实 Copernicus GLO-30 地形生成的晕渲图；地块、建筑、树木、风险值为
+      <b>人工仿真</b>，不是实测数据。坐标：局部平面米制，x 向东、y 向北。
+    </div>
+  </aside>
+  <div id="map"></div>
+</div>
+
+<script src="/static/vendor/leaflet.js"></script>
+<script>
+const RISK_COLOR = {low:"#43a047", medium:"#fb8c00", high:"#e53935"};
+const METHOD_COLOR = {baseline:"#90a4ae", improved:"#ef5350"};
+const state = {scenes:[], sid:null, method:"improved", scene:null, traj:null, inspect:null};
+
+const map = L.map("map", {crs:L.CRS.Simple, minZoom:-2, maxZoom:4, zoomSnap:0.25, zoomDelta:0.5, zoomControl:true, attributionControl:false});
+const panes = {
+  base: map.createPane("base"), fields: map.createPane("fields"),
+  traj: map.createPane("traj"), caps: map.createPane("caps"), obs: map.createPane("obs")
+};
+panes.base.style.zIndex = 200; panes.obs.style.zIndex = 350; panes.fields.style.zIndex = 400;
+panes.traj.style.zIndex = 600; panes.caps.style.zIndex = 650;
+
+const groups = {
+  fields: L.layerGroup(), traj: L.layerGroup(), caps: L.layerGroup(), obs: L.layerGroup()
+};
+Object.values(groups).forEach(g => g.addTo(map));
+
+const fmt = (v, d=1) => (v===null || v===undefined || isNaN(v)) ? "—" : Number(v).toFixed(d);
+
+function flipRing(coords){ return coords.map(([x,y]) => [y,x]); }
+function toLatLng(coords){ return [coords[1], coords[0]]; }
+
+async function getJSON(url){
+  const r = await fetch(url);
+  if(!r.ok) throw new Error(url + " → " + r.status);
+  return await r.json();
+}
+
+async function boot(){
+  try{
+    state.scenes = await getJSON("/api/scenes");
+    const box = document.getElementById("sceneBtns");
+    box.innerHTML = "";
+    state.scenes.forEach((s, i) => {
+      const b = document.createElement("button");
+      b.className = "scene-btn" + (i===0 ? " active" : "");
+      b.dataset.sid = s.scene_id;
+      b.innerHTML = `${s.name}<small>${s.size_m}×${s.size_m} m · ${s.n_fields} 块地 · 高差 ${fmt(s.relief_m,0)} m</small>`;
+      b.onclick = () => selectScene(s.scene_id);
+      box.appendChild(b);
+    });
+    // 支持 #scene_medium/improved 深链接，方便答辩直接打开某一页
+    const [hashSid, hashMethod] = decodeURIComponent(location.hash.replace("#", "")).split("/");
+    if (["baseline", "improved"].includes(hashMethod)) {
+      state.method = hashMethod;
+      document.querySelectorAll("#methodSeg button").forEach(x =>
+        x.classList.toggle("active", x.dataset.m === hashMethod));
+    }
+    const initial = state.scenes.some(s => s.scene_id === hashSid) ? hashSid : state.scenes[0].scene_id;
+    if(state.scenes.length) selectScene(initial);
+  }catch(e){
+    document.getElementById("sceneBtns").innerHTML = `<div class="empty">加载失败：${e.message}</div>`;
+  }
+}
+
+async function selectScene(sid){
+  state.sid = sid;
+  history.replaceState(null, "", `#${sid}/${state.method}`);
+  document.querySelectorAll(".scene-btn").forEach(b => b.classList.toggle("active", b.dataset.sid === sid));
+  const data = await getJSON(`/api/scene/${sid}`);
+  state.scene = data;
+
+  groups.fields.clearLayers(); groups.obs.clearLayers();
+  groups.traj.clearLayers(); groups.caps.clearLayers();
+
+  const size = data.size_m;
+  map.setMaxBounds([[-size*0.15, -size*0.15],[size*1.15, size*1.15]]);
+  if(state.basemapLayer) map.removeLayer(state.basemapLayer);
+  state.basemapLayer = L.imageOverlay(data.basemap_url, [[0,0],[size,size]], {pane:"base", opacity:0.95}).addTo(map);
+  map.fitBounds([[0,0],[size,size]], {padding:[12,12]});
+  map.invalidateSize();
+  const z = Math.log2(Math.min(map.getSize().x, map.getSize().y) / (size * 1.06));
+  map.setView([size/2, size/2], z);
+
+  // 地块
+  L.geoJSON(data.fields, {
+    pane:"fields",
+    coordsToLatLng: toLatLng,
+    style: f => ({color:"#ffffff", weight:1, opacity:.85,
+                 fillColor:RISK_COLOR[f.properties.risk_level]||"#888", fillOpacity:.55}),
+    onEachFeature: (f, layer) => {
+      layer.bindTooltip(f.properties.field_id, {sticky:true});
+      layer.on("click", () => layer.bindPopup(fieldPopup(f.properties)).openPopup());
+    }
+  }).addTo(groups.fields);
+
+  // 障碍物（只画道路/建筑/电线，树木点太多）
+  L.geoJSON(data.obstacles, {
+    pane:"obs",
+    coordsToLatLng: toLatLng,
+    filter: f => ["road","powerline","building","ditch"].includes(f.properties.kind),
+    style: f => {
+      const k = f.properties.kind;
+      if(k==="road") return {color:"#ffd54f", weight:1.2, opacity:.8};
+      if(k==="powerline") return {color:"#ff9100", weight:1.4, dashArray:"4 4", opacity:.95};
+      if(k==="ditch") return {color:"#4fc3f7", weight:1, opacity:.7};
+      return {color:"#cfd8dc", weight:1, fillColor:"#90a4ae", fillOpacity:.5};
+    }
+  }).addTo(groups.obs);
+
+  await loadMission();
+}
+
+function fieldPopup(p){
+  const cov = state.inspect ? (state.inspect.fields.find(x=>x.field_id===p.field_id)||{}).coverage_pct : null;
+  return `<b>${p.field_id}</b><span class="badge b-${p.risk_level}">${p.risk_level}</span><br>
+    风险值：${fmt(p.risk,2)}<br>优先级：${p.priority}<br>面积：${fmt(p.area_m2,0)} m²<br>
+    平均高程：${fmt(p.mean_elev,0)} m<br>覆盖率：${fmt(cov,1)}%`;
+}
+
+async function loadMission(){
+  if(!state.sid) return;
+  const sid = state.sid, m = state.method;
+  try{
+    const [traj, insp] = await Promise.all([
+      getJSON(`/api/traj/${sid}/${m}`),
+      getJSON(`/api/inspect/${sid}/${m}`).catch(()=>null)
+    ]);
+    state.traj = traj; state.inspect = insp;
+    drawMission();
+    renderCards();
+  }catch(e){
+    state.traj = null; state.inspect = null;
+    groups.traj.clearLayers(); groups.caps.clearLayers();
+    document.getElementById("cards").innerHTML = `<div class="empty">${e.message}</div>`;
+  }
+}
+
+function drawMission(){
+  groups.traj.clearLayers(); groups.caps.clearLayers();
+  const tr = state.traj;
+  if(!tr) return;
+  const pts = tr.waypoints.map(w => [w.y, w.x]);
+  L.polyline(pts, {pane:"traj", color:METHOD_COLOR[state.method], weight:2.2,
+                   opacity:.95, dashArray: state.method==="baseline" ? "5 5" : null}).addTo(groups.traj);
+
+  const caps = tr.waypoints.filter(w => w.action==="capture");
+  caps.forEach(w => {
+    L.circleMarker([w.y,w.x], {pane:"caps", radius:1.6, color:"#111", weight:.3,
+      fillColor:"#ffeb3b", fillOpacity:.9}).addTo(groups.caps);
+  });
+}
+
+function renderCards(){
+  const tr = state.traj, ins = state.inspect;
+  const m = tr ? tr.metrics : {};
+  const cov = ins ? ins.totals.coverage_pct : null;
+  const ok = m.battery_reserve_ok;
+  document.getElementById("cards").innerHTML = `
+    <div class="card"><div class="k">航程</div><div class="v">${fmt(m.path_length_m,0)}<span class="u">m</span></div></div>
+    <div class="card"><div class="k">模拟能耗</div><div class="v">${fmt(m.energy_wh,1)}<span class="u">Wh</span></div></div>
+    <div class="card"><div class="k">覆盖率</div><div class="v">${fmt(cov,1)}<span class="u">%</span></div></div>
+    <div class="card"><div class="k">规划耗时</div><div class="v">${fmt(m.planning_time_s,2)}<span class="u">s</span></div></div>
+    <div class="card"><div class="k">高风险地块平均次序</div><div class="v">${fmt(m.high_risk_mean_order,1)}</div></div>
+    <div class="card"><div class="k">碰撞 / 安全违规</div><div class="v">${fmt(m.collision_count,0)} / ${fmt(m.safety_violation_m,1)}<span class="u">m</span></div></div>
+    <div class="card"><div class="k">电量</div><div class="v ${ok?"ok":"bad"}">${fmt(m.battery_pct_used,0)}<span class="u">%</span></div></div>
+    <div class="card"><div class="k">拍照点</div><div class="v">${fmt(ins?ins.totals.n_images:null,0)}</div></div>`;
+}
+
+document.getElementById("methodSeg").addEventListener("click", e => {
+  const b = e.target.closest("button"); if(!b) return;
+  state.method = b.dataset.m;
+  document.querySelectorAll("#methodSeg button").forEach(x => x.classList.toggle("active", x===b));
+  if(state.sid) history.replaceState(null, "", `#${state.sid}/${state.method}`);
+  loadMission();
+});
+
+document.getElementById("cbFields").onchange = e => e.target.checked ? groups.fields.addTo(map) : map.removeLayer(groups.fields);
+document.getElementById("cbTraj").onchange   = e => e.target.checked ? groups.traj.addTo(map)   : map.removeLayer(groups.traj);
+document.getElementById("cbCaps").onchange   = e => e.target.checked ? groups.caps.addTo(map)   : map.removeLayer(groups.caps);
+document.getElementById("cbObs").onchange    = e => e.target.checked ? groups.obs.addTo(map)    : map.removeLayer(groups.obs);
+
+boot();
+</script>
+</body>
+</html>
+
+

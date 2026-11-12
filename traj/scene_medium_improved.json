@@ -1,0 +1,2994 @@
+{
+ "schema_version": "1.0",
+ "scene": "scene_medium",
+ "scene_name": "中等场景·多依树密集梯田",
+ "method": "improved",
+ "created_at": "2026-11-11T00:49:26+08:00",
+ "coords": {
+  "crs": "EPSG:32648",
+  "local_origin_xy": [
+   0.0,
+   0.0
+  ],
+  "utm_origin_xy": [
+   270404.61,
+   2557745.74
+  ],
+  "unit": "m",
+  "note": "航迹为局部平面坐标：x 向东，y 向北，原点为场景西南角"
+ },
+ "uav": {
+  "cruise_speed_mps": 6.0,
+  "climb_speed_mps": 2.0,
+  "alt_agl_m": 25.0,
+  "fov_deg": 35.0,
+  "footprint_radius_m": 7.88,
+  "gsd_cm": 0.29,
+  "battery_wh": 300.0
+ },
+ "route": [
+  "T018",
+  "T002",
+  "T015",
+  "T017",
+  "T022",
+  "T021",
+  "T008",
+  "T010",
+  "T014",
+  "T007",
+  "T012",
+  "T006",
+  "T005",
+  "T001",
+  "T019",
+  "T020",
+  "T016",
+  "T009",
+  "T013",
+  "T011",
+  "T004",
+  "T003"
+ ],
+ "fields": [
+  {
+   "field_id": "T018",
+   "risk": 0.831,
+   "risk_level": "high",
+   "priority": 3,
+   "visit_order": 1,
+   "entry": [
+    276.87,
+    597.03
+   ],
+   "exit": [
+    271.77,
+    623.23
+   ],
+   "n_strips": 1,
+   "variant": 1,
+   "area_m2": 286.3
+  },
+  {
+   "field_id": "T002",
+   "risk": 0.91,
+   "risk_level": "high",
+   "priority": 3,
+   "visit_order": 2,
+   "entry": [
+    240.0,
+    682.34
+   ],
+   "exit": [
+    224.33,
+    667.69
+   ],
+   "n_strips": 1,
+   "variant": 1,
+   "area_m2": 236.2
+  },
+  {
+   "field_id": "T015",
+   "risk": 0.792,
+   "risk_level": "high",
+   "priority": 3,
+   "visit_order": 3,
+   "entry": [
+    206.32,
+    680.43
+   ],
+   "exit": [
+    177.4,
+    663.54
+   ],
+   "n_strips": 1,
+   "variant": 1,
+   "area_m2": 412.9
+  },
+  {
+   "field_id": "T017",
+   "risk": 0.95,
+   "risk_level": "high",
+   "priority": 3,
+   "visit_order": 4,
+   "entry": [
+    170.53,
+    554.5
+   ],
+   "exit": [
+    175.1,
+    536.98
+   ],
+   "n_strips": 1,
+   "variant": 0,
+   "area_m2": 167.8
+  },
+  {
+   "field_id": "T022",
+   "risk": 0.713,
+   "risk_level": "high",
+   "priority": 3,
+   "visit_order": 5,
+   "entry": [
+    109.64,
+    507.38
+   ],
+   "exit": [
+    100.09,
+    477.5
+   ],
+   "n_strips": 3,
+   "variant": 3,
+   "area_m2": 701.8
+  },
+  {
+   "field_id": "T021",
+   "risk": 0.871,
+   "risk_level": "high",
+   "priority": 3,
+   "visit_order": 6,
+   "entry": [
+    111.62,
+    256.38
+   ],
+   "exit": [
+    84.66,
+    251.62
+   ],
+   "n_strips": 3,
+   "variant": 2,
+   "area_m2": 535.4
+  },
+  {
+   "field_id": "T008",
+   "risk": 0.752,
+   "risk_level": "high",
+   "priority": 3,
+   "visit_order": 7,
+   "entry": [
+    81.66,
+    226.49
+   ],
+   "exit": [
+    66.49,
+    193.28
+   ],
+   "n_strips": 1,
+   "variant": 1,
+   "area_m2": 464.4
+  },
+  {
+   "field_id": "T010",
+   "risk": 0.476,
+   "risk_level": "medium",
+   "priority": 2,
+   "visit_order": 8,
+   "entry": [
+    187.59,
+    153.44
+   ],
+   "exit": [
+    188.32,
+    154.76
+   ],
+   "n_strips": 2,
+   "variant": 0,
+   "area_m2": 663.1
+  },
+  {
+   "field_id": "T014",
+   "risk": 0.594,
+   "risk_level": "medium",
+   "priority": 2,
+   "visit_order": 9,
+   "entry": [
+    244.65,
+    235.45
+   ],
+   "exit": [
+    268.83,
+    219.67
+   ],
+   "n_strips": 3,
+   "variant": 3,
+   "area_m2": 576.0
+  },
+  {
+   "field_id": "T007",
+   "risk": 0.673,
+   "risk_level": "medium",
+   "priority": 2,
+   "visit_order": 10,
+   "entry": [
+    348.68,
+    196.05
+   ],
+   "exit": [
+    374.78,
+    187.43
+   ],
+   "n_strips": 3,
+   "variant": 3,
+   "area_m2": 504.5
+  },
+  {
+   "field_id": "T012",
+   "risk": 0.436,
+   "risk_level": "medium",
+   "priority": 2,
+   "visit_order": 11,
+   "entry": [
+    470.51,
+    283.13
+   ],
+   "exit": [
+    476.9,
+    313.26
+   ],
+   "n_strips": 1,
+   "variant": 0,
+   "area_m2": 352.0
+  },
+  {
+   "field_id": "T006",
+   "risk": 0.515,
+   "risk_level": "medium",
+   "priority": 2,
+   "visit_order": 12,
+   "entry": [
+    557.34,
+    487.71
+   ],
+   "exit": [
+    556.34,
+    488.31
+   ],
+   "n_strips": 2,
+   "variant": 0,
+   "area_m2": 498.7
+  },
+  {
+   "field_id": "T005",
+   "risk": 0.634,
+   "risk_level": "medium",
+   "priority": 2,
+   "visit_order": 13,
+   "entry": [
+    347.73,
+    523.21
+   ],
+   "exit": [
+    338.6,
+    550.16
+   ],
+   "n_strips": 1,
+   "variant": 1,
+   "area_m2": 311.0
+  },
+  {
+   "field_id": "T001",
+   "risk": 0.555,
+   "risk_level": "medium",
+   "priority": 2,
+   "visit_order": 14,
+   "entry": [
+    217.87,
+    590.73
+   ],
+   "exit": [
+    202.3,
+    613.48
+   ],
+   "n_strips": 1,
+   "variant": 1,
+   "area_m2": 318.2
+  },
+  {
+   "field_id": "T019",
+   "risk": 0.357,
+   "risk_level": "low",
+   "priority": 1,
+   "visit_order": 15,
+   "entry": [
+    382.38,
+    625.76
+   ],
+   "exit": [
+    387.07,
+    594.97
+   ],
+   "n_strips": 4,
+   "variant": 3,
+   "area_m2": 664.4
+  },
+  {
+   "field_id": "T020",
+   "risk": 0.318,
+   "risk_level": "low",
+   "priority": 1,
+   "visit_order": 16,
+   "entry": [
+    435.4,
+    574.73
+   ],
+   "exit": [
+    459.37,
+    591.25
+   ],
+   "n_strips": 3,
+   "variant": 3,
+   "area_m2": 616.2
+  },
+  {
+   "field_id": "T016",
+   "risk": 0.199,
+   "risk_level": "low",
+   "priority": 1,
+   "visit_order": 17,
+   "entry": [
+    528.33,
+    530.44
+   ],
+   "exit": [
+    522.92,
+    501.95
+   ],
+   "n_strips": 4,
+   "variant": 2,
+   "area_m2": 581.5
+  },
+  {
+   "field_id": "T009",
+   "risk": 0.12,
+   "risk_level": "low",
+   "priority": 1,
+   "visit_order": 18,
+   "entry": [
+    792.07,
+    637.13
+   ],
+   "exit": [
+    791.59,
+    635.46
+   ],
+   "n_strips": 2,
+   "variant": 1,
+   "area_m2": 575.1
+  },
+  {
+   "field_id": "T013",
+   "risk": 0.16,
+   "risk_level": "low",
+   "priority": 1,
+   "visit_order": 19,
+   "entry": [
+    367.22,
+    170.18
+   ],
+   "exit": [
+    366.58,
+    168.71
+   ],
+   "n_strips": 2,
+   "variant": 1,
+   "area_m2": 526.0
+  },
+  {
+   "field_id": "T011",
+   "risk": 0.278,
+   "risk_level": "low",
+   "priority": 1,
+   "visit_order": 20,
+   "entry": [
+    218.98,
+    86.81
+   ],
+   "exit": [
+    218.8,
+    86.45
+   ],
+   "n_strips": 2,
+   "variant": 1,
+   "area_m2": 518.3
+  },
+  {
+   "field_id": "T004",
+   "risk": 0.397,
+   "risk_level": "low",
+   "priority": 1,
+   "visit_order": 21,
+   "entry": [
+    164.85,
+    45.05
+   ],
+   "exit": [
+    130.6,
+    48.06
+   ],
+   "n_strips": 4,
+   "variant": 2,
+   "area_m2": 740.2
+  },
+  {
+   "field_id": "T003",
+   "risk": 0.239,
+   "risk_level": "low",
+   "priority": 1,
+   "visit_order": 22,
+   "entry": [
+    136.3,
+    259.06
+   ],
+   "exit": [
+    161.94,
+    254.18
+   ],
+   "n_strips": 3,
+   "variant": 3,
+   "area_m2": 519.8
+  }
+ ],
+ "waypoints": [
+  {
+   "seq": 0,
+   "x": 850.0,
+   "y": 705.0,
+   "z": 1863.46,
+   "t": 8.0,
+   "heading": 0.0,
+   "field_id": null,
+   "action": "takeoff"
+  },
+  {
+   "seq": 1,
+   "x": 852.5,
+   "y": 702.5,
+   "z": 1863.27,
+   "t": 8.68,
+   "heading": 135.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 2,
+   "x": 792.5,
+   "y": 672.5,
+   "z": 1852.99,
+   "t": 25.0,
+   "heading": 243.4,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 3,
+   "x": 742.5,
+   "y": 672.5,
+   "z": 1844.34,
+   "t": 37.66,
+   "heading": 270.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 4,
+   "x": 497.5,
+   "y": 507.5,
+   "z": 1702.6,
+   "t": 157.76,
+   "heading": 236.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 5,
+   "x": 277.5,
+   "y": 597.5,
+   "z": 1628.32,
+   "t": 234.52,
+   "heading": 292.2,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 6,
+   "x": 276.87,
+   "y": 597.03,
+   "z": 1628.18,
+   "t": 236.72,
+   "heading": 233.0,
+   "field_id": "T018",
+   "action": "capture"
+  },
+  {
+   "seq": 7,
+   "x": 276.77,
+   "y": 597.58,
+   "z": 1628.03,
+   "t": 238.89,
+   "heading": 349.0,
+   "field_id": "T018",
+   "action": "capture"
+  },
+  {
+   "seq": 8,
+   "x": 275.1,
+   "y": 606.13,
+   "z": 1626.2,
+   "t": 243.25,
+   "heading": 349.0,
+   "field_id": "T018",
+   "action": "capture"
+  },
+  {
+   "seq": 9,
+   "x": 273.44,
+   "y": 614.68,
+   "z": 1624.98,
+   "t": 247.32,
+   "heading": 349.0,
+   "field_id": "T018",
+   "action": "capture"
+  },
+  {
+   "seq": 10,
+   "x": 271.77,
+   "y": 623.23,
+   "z": 1623.62,
+   "t": 251.45,
+   "heading": 349.0,
+   "field_id": "T018",
+   "action": "capture"
+  },
+  {
+   "seq": 11,
+   "x": 272.5,
+   "y": 622.5,
+   "z": 1624.04,
+   "t": 251.83,
+   "heading": 135.1,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 12,
+   "x": 237.5,
+   "y": 682.5,
+   "z": 1609.22,
+   "t": 270.81,
+   "heading": 329.7,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 13,
+   "x": 240.0,
+   "y": 682.34,
+   "z": 1609.85,
+   "t": 273.55,
+   "heading": 93.7,
+   "field_id": "T002",
+   "action": "capture"
+  },
+  {
+   "seq": 14,
+   "x": 237.05,
+   "y": 679.59,
+   "z": 1608.44,
+   "t": 276.93,
+   "heading": 226.9,
+   "field_id": "T002",
+   "action": "capture"
+  },
+  {
+   "seq": 15,
+   "x": 230.69,
+   "y": 673.64,
+   "z": 1605.05,
+   "t": 282.07,
+   "heading": 226.9,
+   "field_id": "T002",
+   "action": "capture"
+  },
+  {
+   "seq": 16,
+   "x": 224.33,
+   "y": 667.69,
+   "z": 1601.41,
+   "t": 287.34,
+   "heading": 226.9,
+   "field_id": "T002",
+   "action": "capture"
+  },
+  {
+   "seq": 17,
+   "x": 222.5,
+   "y": 667.5,
+   "z": 1600.81,
+   "t": 287.95,
+   "heading": 263.9,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 18,
+   "x": 207.5,
+   "y": 682.5,
+   "z": 1601.91,
+   "t": 292.03,
+   "heading": 315.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 19,
+   "x": 206.32,
+   "y": 680.43,
+   "z": 1600.94,
+   "t": 294.92,
+   "heading": 209.6,
+   "field_id": "T015",
+   "action": "capture"
+  },
+  {
+   "seq": 20,
+   "x": 199.97,
+   "y": 676.72,
+   "z": 1598.13,
+   "t": 299.55,
+   "heading": 239.7,
+   "field_id": "T015",
+   "action": "capture"
+  },
+  {
+   "seq": 21,
+   "x": 192.45,
+   "y": 672.33,
+   "z": 1595.19,
+   "t": 304.47,
+   "heading": 239.7,
+   "field_id": "T015",
+   "action": "capture"
+  },
+  {
+   "seq": 22,
+   "x": 184.93,
+   "y": 667.94,
+   "z": 1592.8,
+   "t": 309.12,
+   "heading": 239.7,
+   "field_id": "T015",
+   "action": "capture"
+  },
+  {
+   "seq": 23,
+   "x": 177.4,
+   "y": 663.54,
+   "z": 1590.66,
+   "t": 313.64,
+   "heading": 239.7,
+   "field_id": "T015",
+   "action": "capture"
+  },
+  {
+   "seq": 24,
+   "x": 177.5,
+   "y": 662.5,
+   "z": 1590.37,
+   "t": 313.96,
+   "heading": 174.8,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 25,
+   "x": 172.5,
+   "y": 552.5,
+   "z": 1593.96,
+   "t": 334.11,
+   "heading": 182.6,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 26,
+   "x": 170.53,
+   "y": 554.5,
+   "z": 1592.65,
+   "t": 337.23,
+   "heading": 315.5,
+   "field_id": "T017",
+   "action": "capture"
+  },
+  {
+   "seq": 27,
+   "x": 172.73,
+   "y": 546.07,
+   "z": 1594.85,
+   "t": 341.78,
+   "heading": 165.4,
+   "field_id": "T017",
+   "action": "capture"
+  },
+  {
+   "seq": 28,
+   "x": 174.93,
+   "y": 537.64,
+   "z": 1595.96,
+   "t": 345.79,
+   "heading": 165.4,
+   "field_id": "T017",
+   "action": "capture"
+  },
+  {
+   "seq": 29,
+   "x": 175.1,
+   "y": 536.98,
+   "z": 1595.99,
+   "t": 347.91,
+   "heading": 165.4,
+   "field_id": "T017",
+   "action": "capture"
+  },
+  {
+   "seq": 30,
+   "x": 177.5,
+   "y": 537.5,
+   "z": 1597.38,
+   "t": 349.02,
+   "heading": 77.8,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 31,
+   "x": 107.5,
+   "y": 507.5,
+   "z": 1563.38,
+   "t": 378.71,
+   "heading": 246.8,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 32,
+   "x": 109.64,
+   "y": 507.38,
+   "z": 1563.58,
+   "t": 381.17,
+   "heading": 93.2,
+   "field_id": "T022",
+   "action": "capture"
+  },
+  {
+   "seq": 33,
+   "x": 109.19,
+   "y": 507.24,
+   "z": 1563.52,
+   "t": 383.27,
+   "heading": 253.0,
+   "field_id": "T022",
+   "action": "capture"
+  },
+  {
+   "seq": 34,
+   "x": 100.86,
+   "y": 504.69,
+   "z": 1564.08,
+   "t": 387.01,
+   "heading": 253.0,
+   "field_id": "T022",
+   "action": "capture"
+  },
+  {
+   "seq": 35,
+   "x": 92.54,
+   "y": 502.14,
+   "z": 1565.22,
+   "t": 391.03,
+   "heading": 253.0,
+   "field_id": "T022",
+   "action": "capture"
+  },
+  {
+   "seq": 36,
+   "x": 96.31,
+   "y": 489.82,
+   "z": 1564.48,
+   "t": 395.54,
+   "heading": 163.0,
+   "field_id": "T022",
+   "action": "capture"
+  },
+  {
+   "seq": 37,
+   "x": 104.64,
+   "y": 492.37,
+   "z": 1562.89,
+   "t": 399.79,
+   "heading": 73.0,
+   "field_id": "T022",
+   "action": "capture"
+  },
+  {
+   "seq": 38,
+   "x": 112.97,
+   "y": 494.92,
+   "z": 1562.76,
+   "t": 403.31,
+   "heading": 73.0,
+   "field_id": "T022",
+   "action": "capture"
+  },
+  {
+   "seq": 39,
+   "x": 113.42,
+   "y": 495.06,
+   "z": 1562.84,
+   "t": 405.43,
+   "heading": 73.0,
+   "field_id": "T022",
+   "action": "capture"
+  },
+  {
+   "seq": 40,
+   "x": 117.19,
+   "y": 482.74,
+   "z": 1561.88,
+   "t": 410.06,
+   "heading": 163.0,
+   "field_id": "T022",
+   "action": "capture"
+  },
+  {
+   "seq": 41,
+   "x": 116.75,
+   "y": 482.6,
+   "z": 1561.83,
+   "t": 412.16,
+   "heading": 253.0,
+   "field_id": "T022",
+   "action": "capture"
+  },
+  {
+   "seq": 42,
+   "x": 108.42,
+   "y": 480.05,
+   "z": 1562.49,
+   "t": 415.94,
+   "heading": 253.0,
+   "field_id": "T022",
+   "action": "capture"
+  },
+  {
+   "seq": 43,
+   "x": 100.09,
+   "y": 477.5,
+   "z": 1565.27,
+   "t": 420.79,
+   "heading": 253.0,
+   "field_id": "T022",
+   "action": "capture"
+  },
+  {
+   "seq": 44,
+   "x": 102.5,
+   "y": 477.5,
+   "z": 1564.68,
+   "t": 421.48,
+   "heading": 90.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 45,
+   "x": 112.5,
+   "y": 257.5,
+   "z": 1616.51,
+   "t": 484.1,
+   "heading": 177.4,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 46,
+   "x": 111.62,
+   "y": 256.38,
+   "z": 1616.7,
+   "t": 486.44,
+   "heading": 218.2,
+   "field_id": "T021",
+   "action": "capture"
+  },
+  {
+   "seq": 47,
+   "x": 105.76,
+   "y": 262.82,
+   "z": 1615.01,
+   "t": 490.73,
+   "heading": 317.7,
+   "field_id": "T021",
+   "action": "capture"
+  },
+  {
+   "seq": 48,
+   "x": 101.8,
+   "y": 267.19,
+   "z": 1614.48,
+   "t": 493.98,
+   "heading": 317.7,
+   "field_id": "T021",
+   "action": "capture"
+  },
+  {
+   "seq": 49,
+   "x": 93.23,
+   "y": 259.4,
+   "z": 1617.8,
+   "t": 499.57,
+   "heading": 227.7,
+   "field_id": "T021",
+   "action": "capture"
+  },
+  {
+   "seq": 50,
+   "x": 97.19,
+   "y": 255.04,
+   "z": 1617.98,
+   "t": 502.64,
+   "heading": 137.7,
+   "field_id": "T021",
+   "action": "capture"
+  },
+  {
+   "seq": 51,
+   "x": 103.05,
+   "y": 248.6,
+   "z": 1618.47,
+   "t": 506.34,
+   "heading": 137.7,
+   "field_id": "T021",
+   "action": "capture"
+  },
+  {
+   "seq": 52,
+   "x": 94.48,
+   "y": 240.81,
+   "z": 1621.4,
+   "t": 511.74,
+   "heading": 227.7,
+   "field_id": "T021",
+   "action": "capture"
+  },
+  {
+   "seq": 53,
+   "x": 88.63,
+   "y": 247.26,
+   "z": 1620.99,
+   "t": 515.4,
+   "heading": 317.7,
+   "field_id": "T021",
+   "action": "capture"
+  },
+  {
+   "seq": 54,
+   "x": 84.66,
+   "y": 251.62,
+   "z": 1620.81,
+   "t": 518.47,
+   "heading": 317.7,
+   "field_id": "T021",
+   "action": "capture"
+  },
+  {
+   "seq": 55,
+   "x": 82.5,
+   "y": 252.5,
+   "z": 1621.02,
+   "t": 518.96,
+   "heading": 292.1,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 56,
+   "x": 82.5,
+   "y": 227.5,
+   "z": 1625.5,
+   "t": 525.37,
+   "heading": 180.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 57,
+   "x": 81.66,
+   "y": 226.49,
+   "z": 1625.78,
+   "t": 527.73,
+   "heading": 219.8,
+   "field_id": "T008",
+   "action": "capture"
+  },
+  {
+   "seq": 58,
+   "x": 80.96,
+   "y": 224.97,
+   "z": 1626.13,
+   "t": 530.18,
+   "heading": 204.5,
+   "field_id": "T008",
+   "action": "capture"
+  },
+  {
+   "seq": 59,
+   "x": 77.35,
+   "y": 217.05,
+   "z": 1627.9,
+   "t": 534.52,
+   "heading": 204.5,
+   "field_id": "T008",
+   "action": "capture"
+  },
+  {
+   "seq": 60,
+   "x": 73.73,
+   "y": 209.12,
+   "z": 1630.14,
+   "t": 539.09,
+   "heading": 204.5,
+   "field_id": "T008",
+   "action": "capture"
+  },
+  {
+   "seq": 61,
+   "x": 70.11,
+   "y": 201.2,
+   "z": 1632.64,
+   "t": 543.79,
+   "heading": 204.5,
+   "field_id": "T008",
+   "action": "capture"
+  },
+  {
+   "seq": 62,
+   "x": 66.49,
+   "y": 193.28,
+   "z": 1635.15,
+   "t": 548.5,
+   "heading": 204.5,
+   "field_id": "T008",
+   "action": "capture"
+  },
+  {
+   "seq": 63,
+   "x": 67.5,
+   "y": 192.5,
+   "z": 1635.08,
+   "t": 548.75,
+   "heading": 127.7,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 64,
+   "x": 17.5,
+   "y": 162.5,
+   "z": 1645.68,
+   "t": 563.76,
+   "heading": 239.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 65,
+   "x": 47.5,
+   "y": 152.5,
+   "z": 1643.66,
+   "t": 570.05,
+   "heading": 108.4,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 66,
+   "x": 187.5,
+   "y": 152.5,
+   "z": 1634.27,
+   "t": 598.07,
+   "heading": 90.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 67,
+   "x": 187.59,
+   "y": 153.44,
+   "z": 1634.01,
+   "t": 600.36,
+   "heading": 5.3,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 68,
+   "x": 195.21,
+   "y": 149.22,
+   "z": 1635.91,
+   "t": 604.76,
+   "heading": 119.0,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 69,
+   "x": 202.82,
+   "y": 145.0,
+   "z": 1638.33,
+   "t": 609.42,
+   "heading": 119.0,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 70,
+   "x": 210.44,
+   "y": 140.78,
+   "z": 1640.79,
+   "t": 614.1,
+   "heading": 119.0,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 71,
+   "x": 218.06,
+   "y": 136.56,
+   "z": 1643.26,
+   "t": 618.79,
+   "heading": 119.0,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 72,
+   "x": 225.68,
+   "y": 132.34,
+   "z": 1646.02,
+   "t": 623.62,
+   "heading": 119.0,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 73,
+   "x": 226.46,
+   "y": 131.9,
+   "z": 1646.3,
+   "t": 625.91,
+   "heading": 119.0,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 74,
+   "x": 227.19,
+   "y": 133.22,
+   "z": 1646.08,
+   "t": 628.27,
+   "heading": 29.0,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 75,
+   "x": 226.41,
+   "y": 133.65,
+   "z": 1645.8,
+   "t": 630.56,
+   "heading": 299.0,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 76,
+   "x": 218.79,
+   "y": 137.87,
+   "z": 1643.02,
+   "t": 635.4,
+   "heading": 299.0,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 77,
+   "x": 211.17,
+   "y": 142.09,
+   "z": 1640.51,
+   "t": 640.11,
+   "heading": 299.0,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 78,
+   "x": 203.55,
+   "y": 146.32,
+   "z": 1638.06,
+   "t": 644.79,
+   "heading": 299.0,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 79,
+   "x": 195.94,
+   "y": 150.54,
+   "z": 1635.65,
+   "t": 649.44,
+   "heading": 299.0,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 80,
+   "x": 188.32,
+   "y": 154.76,
+   "z": 1633.68,
+   "t": 653.88,
+   "heading": 299.0,
+   "field_id": "T010",
+   "action": "capture"
+  },
+  {
+   "seq": 81,
+   "x": 187.5,
+   "y": 152.5,
+   "z": 1634.27,
+   "t": 654.58,
+   "heading": 199.9,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 82,
+   "x": 302.5,
+   "y": 147.5,
+   "z": 1647.62,
+   "t": 680.44,
+   "heading": 92.5,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 83,
+   "x": 297.5,
+   "y": 162.5,
+   "z": 1644.23,
+   "t": 684.77,
+   "heading": 341.6,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 84,
+   "x": 242.5,
+   "y": 237.5,
+   "z": 1622.72,
+   "t": 711.03,
+   "heading": 323.7,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 85,
+   "x": 244.65,
+   "y": 235.45,
+   "z": 1623.62,
+   "t": 713.97,
+   "heading": 133.7,
+   "field_id": "T014",
+   "action": "capture"
+  },
+  {
+   "seq": 86,
+   "x": 244.47,
+   "y": 229.06,
+   "z": 1624.97,
+   "t": 717.71,
+   "heading": 181.6,
+   "field_id": "T014",
+   "action": "capture"
+  },
+  {
+   "seq": 87,
+   "x": 244.23,
+   "y": 220.35,
+   "z": 1626.62,
+   "t": 721.99,
+   "heading": 181.6,
+   "field_id": "T014",
+   "action": "capture"
+  },
+  {
+   "seq": 88,
+   "x": 256.53,
+   "y": 220.01,
+   "z": 1627.91,
+   "t": 726.69,
+   "heading": 91.6,
+   "field_id": "T014",
+   "action": "capture"
+  },
+  {
+   "seq": 89,
+   "x": 256.77,
+   "y": 228.72,
+   "z": 1626.03,
+   "t": 731.08,
+   "heading": 1.6,
+   "field_id": "T014",
+   "action": "capture"
+  },
+  {
+   "seq": 90,
+   "x": 256.95,
+   "y": 235.11,
+   "z": 1624.46,
+   "t": 734.93,
+   "heading": 1.6,
+   "field_id": "T014",
+   "action": "capture"
+  },
+  {
+   "seq": 91,
+   "x": 269.25,
+   "y": 234.77,
+   "z": 1624.83,
+   "t": 739.17,
+   "heading": 91.6,
+   "field_id": "T014",
+   "action": "capture"
+  },
+  {
+   "seq": 92,
+   "x": 269.07,
+   "y": 228.38,
+   "z": 1626.6,
+   "t": 743.12,
+   "heading": 181.6,
+   "field_id": "T014",
+   "action": "capture"
+  },
+  {
+   "seq": 93,
+   "x": 268.83,
+   "y": 219.67,
+   "z": 1628.72,
+   "t": 747.63,
+   "heading": 181.6,
+   "field_id": "T014",
+   "action": "capture"
+  },
+  {
+   "seq": 94,
+   "x": 267.5,
+   "y": 217.5,
+   "z": 1629.17,
+   "t": 748.28,
+   "heading": 211.5,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 95,
+   "x": 347.5,
+   "y": 197.5,
+   "z": 1633.06,
+   "t": 763.97,
+   "heading": 104.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 96,
+   "x": 348.68,
+   "y": 196.05,
+   "z": 1633.37,
+   "t": 766.43,
+   "heading": 141.0,
+   "field_id": "T007",
+   "action": "capture"
+  },
+  {
+   "seq": 97,
+   "x": 349.56,
+   "y": 191.44,
+   "z": 1634.59,
+   "t": 769.83,
+   "heading": 169.1,
+   "field_id": "T007",
+   "action": "capture"
+  },
+  {
+   "seq": 98,
+   "x": 351.21,
+   "y": 182.89,
+   "z": 1636.92,
+   "t": 774.44,
+   "heading": 169.1,
+   "field_id": "T007",
+   "action": "capture"
+  },
+  {
+   "seq": 99,
+   "x": 362.99,
+   "y": 185.16,
+   "z": 1635.96,
+   "t": 778.92,
+   "heading": 79.1,
+   "field_id": "T007",
+   "action": "capture"
+  },
+  {
+   "seq": 100,
+   "x": 361.35,
+   "y": 193.71,
+   "z": 1633.27,
+   "t": 783.71,
+   "heading": 349.1,
+   "field_id": "T007",
+   "action": "capture"
+  },
+  {
+   "seq": 101,
+   "x": 360.46,
+   "y": 198.32,
+   "z": 1631.9,
+   "t": 787.18,
+   "heading": 349.1,
+   "field_id": "T007",
+   "action": "capture"
+  },
+  {
+   "seq": 102,
+   "x": 372.24,
+   "y": 200.59,
+   "z": 1631.5,
+   "t": 791.38,
+   "heading": 79.1,
+   "field_id": "T007",
+   "action": "capture"
+  },
+  {
+   "seq": 103,
+   "x": 373.13,
+   "y": 195.98,
+   "z": 1633.07,
+   "t": 794.95,
+   "heading": 169.1,
+   "field_id": "T007",
+   "action": "capture"
+  },
+  {
+   "seq": 104,
+   "x": 374.78,
+   "y": 187.43,
+   "z": 1636.14,
+   "t": 799.93,
+   "heading": 169.1,
+   "field_id": "T007",
+   "action": "capture"
+  },
+  {
+   "seq": 105,
+   "x": 372.5,
+   "y": 187.5,
+   "z": 1635.94,
+   "t": 800.41,
+   "heading": 271.8,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 106,
+   "x": 472.5,
+   "y": 282.5,
+   "z": 1667.23,
+   "t": 839.05,
+   "heading": 46.5,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 107,
+   "x": 470.51,
+   "y": 283.13,
+   "z": 1666.56,
+   "t": 841.73,
+   "heading": 287.6,
+   "field_id": "T012",
+   "action": "capture"
+  },
+  {
+   "seq": 108,
+   "x": 472.32,
+   "y": 291.65,
+   "z": 1668.94,
+   "t": 846.37,
+   "heading": 12.0,
+   "field_id": "T012",
+   "action": "capture"
+  },
+  {
+   "seq": 109,
+   "x": 474.12,
+   "y": 300.17,
+   "z": 1670.56,
+   "t": 850.63,
+   "heading": 12.0,
+   "field_id": "T012",
+   "action": "capture"
+  },
+  {
+   "seq": 110,
+   "x": 475.93,
+   "y": 308.69,
+   "z": 1672.03,
+   "t": 854.82,
+   "heading": 12.0,
+   "field_id": "T012",
+   "action": "capture"
+  },
+  {
+   "seq": 111,
+   "x": 476.9,
+   "y": 313.26,
+   "z": 1672.79,
+   "t": 857.98,
+   "heading": 12.0,
+   "field_id": "T012",
+   "action": "capture"
+  },
+  {
+   "seq": 112,
+   "x": 477.5,
+   "y": 312.5,
+   "z": 1672.9,
+   "t": 858.19,
+   "heading": 141.6,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 113,
+   "x": 557.5,
+   "y": 487.5,
+   "z": 1716.49,
+   "t": 912.05,
+   "heading": 24.6,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 114,
+   "x": 557.34,
+   "y": 487.71,
+   "z": 1716.48,
+   "t": 914.1,
+   "heading": 322.6,
+   "field_id": "T006",
+   "action": "capture"
+  },
+  {
+   "seq": 115,
+   "x": 561.8,
+   "y": 495.19,
+   "z": 1718.78,
+   "t": 918.71,
+   "heading": 30.8,
+   "field_id": "T006",
+   "action": "capture"
+  },
+  {
+   "seq": 116,
+   "x": 566.26,
+   "y": 502.67,
+   "z": 1721.4,
+   "t": 923.47,
+   "heading": 30.8,
+   "field_id": "T006",
+   "action": "capture"
+  },
+  {
+   "seq": 117,
+   "x": 570.72,
+   "y": 510.15,
+   "z": 1724.46,
+   "t": 928.45,
+   "heading": 30.8,
+   "field_id": "T006",
+   "action": "capture"
+  },
+  {
+   "seq": 118,
+   "x": 574.86,
+   "y": 517.09,
+   "z": 1727.48,
+   "t": 933.31,
+   "heading": 30.8,
+   "field_id": "T006",
+   "action": "capture"
+  },
+  {
+   "seq": 119,
+   "x": 573.86,
+   "y": 517.69,
+   "z": 1727.29,
+   "t": 935.6,
+   "heading": 300.8,
+   "field_id": "T006",
+   "action": "capture"
+  },
+  {
+   "seq": 120,
+   "x": 569.72,
+   "y": 510.75,
+   "z": 1724.27,
+   "t": 940.46,
+   "heading": 210.8,
+   "field_id": "T006",
+   "action": "capture"
+  },
+  {
+   "seq": 121,
+   "x": 565.26,
+   "y": 503.27,
+   "z": 1721.21,
+   "t": 945.44,
+   "heading": 210.8,
+   "field_id": "T006",
+   "action": "capture"
+  },
+  {
+   "seq": 122,
+   "x": 560.8,
+   "y": 495.79,
+   "z": 1718.63,
+   "t": 950.18,
+   "heading": 210.8,
+   "field_id": "T006",
+   "action": "capture"
+  },
+  {
+   "seq": 123,
+   "x": 556.34,
+   "y": 488.31,
+   "z": 1716.34,
+   "t": 954.78,
+   "heading": 210.8,
+   "field_id": "T006",
+   "action": "capture"
+  },
+  {
+   "seq": 124,
+   "x": 557.5,
+   "y": 487.5,
+   "z": 1716.49,
+   "t": 955.09,
+   "heading": 124.8,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 125,
+   "x": 347.5,
+   "y": 522.5,
+   "z": 1662.23,
+   "t": 1017.7,
+   "heading": 279.5,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 126,
+   "x": 347.73,
+   "y": 523.21,
+   "z": 1662.24,
+   "t": 1019.83,
+   "heading": 17.6,
+   "field_id": "T005",
+   "action": "capture"
+  },
+  {
+   "seq": 127,
+   "x": 346.98,
+   "y": 525.41,
+   "z": 1661.84,
+   "t": 1022.42,
+   "heading": 341.3,
+   "field_id": "T005",
+   "action": "capture"
+  },
+  {
+   "seq": 128,
+   "x": 344.19,
+   "y": 533.66,
+   "z": 1660.2,
+   "t": 1026.69,
+   "heading": 341.3,
+   "field_id": "T005",
+   "action": "capture"
+  },
+  {
+   "seq": 129,
+   "x": 341.4,
+   "y": 541.91,
+   "z": 1658.28,
+   "t": 1031.1,
+   "heading": 341.3,
+   "field_id": "T005",
+   "action": "capture"
+  },
+  {
+   "seq": 130,
+   "x": 338.6,
+   "y": 550.16,
+   "z": 1656.06,
+   "t": 1035.66,
+   "heading": 341.3,
+   "field_id": "T005",
+   "action": "capture"
+  },
+  {
+   "seq": 131,
+   "x": 337.5,
+   "y": 552.5,
+   "z": 1655.28,
+   "t": 1036.48,
+   "heading": 334.7,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 132,
+   "x": 217.5,
+   "y": 592.5,
+   "z": 1608.28,
+   "t": 1081.06,
+   "heading": 288.4,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 133,
+   "x": 217.87,
+   "y": 590.73,
+   "z": 1609.05,
+   "t": 1083.75,
+   "heading": 168.2,
+   "field_id": "T001",
+   "action": "capture"
+  },
+  {
+   "seq": 134,
+   "x": 217.05,
+   "y": 591.92,
+   "z": 1608.28,
+   "t": 1086.38,
+   "heading": 325.6,
+   "field_id": "T001",
+   "action": "capture"
+  },
+  {
+   "seq": 135,
+   "x": 212.14,
+   "y": 599.11,
+   "z": 1603.83,
+   "t": 1092.05,
+   "heading": 325.6,
+   "field_id": "T001",
+   "action": "capture"
+  },
+  {
+   "seq": 136,
+   "x": 207.22,
+   "y": 606.3,
+   "z": 1599.73,
+   "t": 1097.55,
+   "heading": 325.6,
+   "field_id": "T001",
+   "action": "capture"
+  },
+  {
+   "seq": 137,
+   "x": 202.3,
+   "y": 613.48,
+   "z": 1595.76,
+   "t": 1102.99,
+   "heading": 325.6,
+   "field_id": "T001",
+   "action": "capture"
+  },
+  {
+   "seq": 138,
+   "x": 202.5,
+   "y": 612.5,
+   "z": 1596.12,
+   "t": 1103.33,
+   "heading": 168.5,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 139,
+   "x": 382.5,
+   "y": 627.5,
+   "z": 1669.23,
+   "t": 1169.99,
+   "heading": 85.2,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 140,
+   "x": 382.38,
+   "y": 625.76,
+   "z": 1669.22,
+   "t": 1172.29,
+   "heading": 183.9,
+   "field_id": "T019",
+   "action": "capture"
+  },
+  {
+   "seq": 141,
+   "x": 390.99,
+   "y": 627.08,
+   "z": 1672.29,
+   "t": 1177.28,
+   "heading": 81.2,
+   "field_id": "T019",
+   "action": "capture"
+  },
+  {
+   "seq": 142,
+   "x": 397.02,
+   "y": 628.01,
+   "z": 1674.26,
+   "t": 1181.28,
+   "heading": 81.2,
+   "field_id": "T019",
+   "action": "capture"
+  },
+  {
+   "seq": 143,
+   "x": 398.6,
+   "y": 617.75,
+   "z": 1674.81,
+   "t": 1185.29,
+   "heading": 171.2,
+   "field_id": "T019",
+   "action": "capture"
+  },
+  {
+   "seq": 144,
+   "x": 392.52,
+   "y": 616.82,
+   "z": 1673.01,
+   "t": 1189.21,
+   "heading": 261.2,
+   "field_id": "T019",
+   "action": "capture"
+  },
+  {
+   "seq": 145,
+   "x": 383.91,
+   "y": 615.49,
+   "z": 1669.93,
+   "t": 1194.2,
+   "heading": 261.2,
+   "field_id": "T019",
+   "action": "capture"
+  },
+  {
+   "seq": 146,
+   "x": 385.49,
+   "y": 605.23,
+   "z": 1670.67,
+   "t": 1198.3,
+   "heading": 171.2,
+   "field_id": "T019",
+   "action": "capture"
+  },
+  {
+   "seq": 147,
+   "x": 394.1,
+   "y": 606.56,
+   "z": 1673.66,
+   "t": 1203.25,
+   "heading": 81.2,
+   "field_id": "T019",
+   "action": "capture"
+  },
+  {
+   "seq": 148,
+   "x": 400.24,
+   "y": 607.5,
+   "z": 1675.29,
+   "t": 1207.1,
+   "heading": 81.2,
+   "field_id": "T019",
+   "action": "capture"
+  },
+  {
+   "seq": 149,
+   "x": 401.82,
+   "y": 597.25,
+   "z": 1675.82,
+   "t": 1211.09,
+   "heading": 171.2,
+   "field_id": "T019",
+   "action": "capture"
+  },
+  {
+   "seq": 150,
+   "x": 395.68,
+   "y": 596.3,
+   "z": 1674.45,
+   "t": 1214.82,
+   "heading": 261.2,
+   "field_id": "T019",
+   "action": "capture"
+  },
+  {
+   "seq": 151,
+   "x": 387.07,
+   "y": 594.97,
+   "z": 1671.64,
+   "t": 1219.67,
+   "heading": 261.2,
+   "field_id": "T019",
+   "action": "capture"
+  },
+  {
+   "seq": 152,
+   "x": 387.5,
+   "y": 592.5,
+   "z": 1671.93,
+   "t": 1220.23,
+   "heading": 170.2,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 153,
+   "x": 437.5,
+   "y": 572.5,
+   "z": 1681.74,
+   "t": 1234.11,
+   "heading": 111.8,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 154,
+   "x": 435.4,
+   "y": 574.73,
+   "z": 1681.57,
+   "t": 1236.71,
+   "heading": 316.7,
+   "field_id": "T020",
+   "action": "capture"
+  },
+  {
+   "seq": 155,
+   "x": 442.51,
+   "y": 571.96,
+   "z": 1682.41,
+   "t": 1240.4,
+   "heading": 111.3,
+   "field_id": "T020",
+   "action": "capture"
+  },
+  {
+   "seq": 156,
+   "x": 450.63,
+   "y": 568.8,
+   "z": 1683.47,
+   "t": 1244.39,
+   "heading": 111.3,
+   "field_id": "T020",
+   "action": "capture"
+  },
+  {
+   "seq": 157,
+   "x": 455.0,
+   "y": 580.03,
+   "z": 1685.35,
+   "t": 1249.33,
+   "heading": 21.3,
+   "field_id": "T020",
+   "action": "capture"
+  },
+  {
+   "seq": 158,
+   "x": 446.88,
+   "y": 583.19,
+   "z": 1683.88,
+   "t": 1253.52,
+   "heading": 291.3,
+   "field_id": "T020",
+   "action": "capture"
+  },
+  {
+   "seq": 159,
+   "x": 439.77,
+   "y": 585.96,
+   "z": 1682.88,
+   "t": 1257.29,
+   "heading": 291.3,
+   "field_id": "T020",
+   "action": "capture"
+  },
+  {
+   "seq": 160,
+   "x": 444.15,
+   "y": 597.18,
+   "z": 1684.44,
+   "t": 1262.08,
+   "heading": 21.3,
+   "field_id": "T020",
+   "action": "capture"
+  },
+  {
+   "seq": 161,
+   "x": 451.26,
+   "y": 594.42,
+   "z": 1685.65,
+   "t": 1265.96,
+   "heading": 111.3,
+   "field_id": "T020",
+   "action": "capture"
+  },
+  {
+   "seq": 162,
+   "x": 459.37,
+   "y": 591.25,
+   "z": 1687.88,
+   "t": 1270.52,
+   "heading": 111.3,
+   "field_id": "T020",
+   "action": "capture"
+  },
+  {
+   "seq": 163,
+   "x": 457.5,
+   "y": 592.5,
+   "z": 1687.39,
+   "t": 1271.14,
+   "heading": 303.6,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 164,
+   "x": 527.5,
+   "y": 532.5,
+   "z": 1714.22,
+   "t": 1299.92,
+   "heading": 130.6,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 165,
+   "x": 528.33,
+   "y": 530.44,
+   "z": 1714.32,
+   "t": 1302.34,
+   "heading": 158.1,
+   "field_id": "T016",
+   "action": "capture"
+  },
+  {
+   "seq": 166,
+   "x": 519.77,
+   "y": 532.07,
+   "z": 1710.86,
+   "t": 1307.53,
+   "heading": 280.7,
+   "field_id": "T016",
+   "action": "capture"
+  },
+  {
+   "seq": 167,
+   "x": 514.9,
+   "y": 532.99,
+   "z": 1708.81,
+   "t": 1311.38,
+   "heading": 280.7,
+   "field_id": "T016",
+   "action": "capture"
+  },
+  {
+   "seq": 168,
+   "x": 513.1,
+   "y": 523.49,
+   "z": 1707.77,
+   "t": 1315.5,
+   "heading": 190.7,
+   "field_id": "T016",
+   "action": "capture"
+  },
+  {
+   "seq": 169,
+   "x": 517.97,
+   "y": 522.57,
+   "z": 1709.53,
+   "t": 1319.21,
+   "heading": 100.7,
+   "field_id": "T016",
+   "action": "capture"
+  },
+  {
+   "seq": 170,
+   "x": 526.52,
+   "y": 520.95,
+   "z": 1712.5,
+   "t": 1324.15,
+   "heading": 100.7,
+   "field_id": "T016",
+   "action": "capture"
+  },
+  {
+   "seq": 171,
+   "x": 524.72,
+   "y": 511.45,
+   "z": 1710.88,
+   "t": 1328.57,
+   "heading": 190.7,
+   "field_id": "T016",
+   "action": "capture"
+  },
+  {
+   "seq": 172,
+   "x": 516.16,
+   "y": 513.07,
+   "z": 1708.41,
+   "t": 1333.26,
+   "heading": 280.7,
+   "field_id": "T016",
+   "action": "capture"
+  },
+  {
+   "seq": 173,
+   "x": 511.3,
+   "y": 513.99,
+   "z": 1706.93,
+   "t": 1336.82,
+   "heading": 280.7,
+   "field_id": "T016",
+   "action": "capture"
+  },
+  {
+   "seq": 174,
+   "x": 509.49,
+   "y": 504.5,
+   "z": 1706.2,
+   "t": 1340.8,
+   "heading": 190.7,
+   "field_id": "T016",
+   "action": "capture"
+  },
+  {
+   "seq": 175,
+   "x": 514.36,
+   "y": 503.57,
+   "z": 1707.45,
+   "t": 1344.25,
+   "heading": 100.7,
+   "field_id": "T016",
+   "action": "capture"
+  },
+  {
+   "seq": 176,
+   "x": 522.92,
+   "y": 501.95,
+   "z": 1709.57,
+   "t": 1348.76,
+   "heading": 100.7,
+   "field_id": "T016",
+   "action": "capture"
+  },
+  {
+   "seq": 177,
+   "x": 522.5,
+   "y": 502.5,
+   "z": 1709.5,
+   "t": 1348.91,
+   "heading": 322.9,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 178,
+   "x": 757.5,
+   "y": 672.5,
+   "z": 1847.26,
+   "t": 1466.13,
+   "heading": 54.1,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 179,
+   "x": 792.5,
+   "y": 637.5,
+   "z": 1859.8,
+   "t": 1480.65,
+   "heading": 135.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 180,
+   "x": 792.07,
+   "y": 637.13,
+   "z": 1859.82,
+   "t": 1482.76,
+   "heading": 229.6,
+   "field_id": "T009",
+   "action": "capture"
+  },
+  {
+   "seq": 181,
+   "x": 800.44,
+   "y": 634.73,
+   "z": 1861.87,
+   "t": 1487.23,
+   "heading": 106.0,
+   "field_id": "T009",
+   "action": "capture"
+  },
+  {
+   "seq": 182,
+   "x": 808.81,
+   "y": 632.34,
+   "z": 1863.3,
+   "t": 1491.4,
+   "heading": 106.0,
+   "field_id": "T009",
+   "action": "capture"
+  },
+  {
+   "seq": 183,
+   "x": 817.19,
+   "y": 629.94,
+   "z": 1864.51,
+   "t": 1495.46,
+   "heading": 106.0,
+   "field_id": "T009",
+   "action": "capture"
+  },
+  {
+   "seq": 184,
+   "x": 825.56,
+   "y": 627.54,
+   "z": 1865.73,
+   "t": 1499.52,
+   "heading": 106.0,
+   "field_id": "T009",
+   "action": "capture"
+  },
+  {
+   "seq": 185,
+   "x": 828.4,
+   "y": 626.73,
+   "z": 1866.25,
+   "t": 1502.27,
+   "heading": 106.0,
+   "field_id": "T009",
+   "action": "capture"
+  },
+  {
+   "seq": 186,
+   "x": 827.92,
+   "y": 625.06,
+   "z": 1866.53,
+   "t": 1504.7,
+   "heading": 196.0,
+   "field_id": "T009",
+   "action": "capture"
+  },
+  {
+   "seq": 187,
+   "x": 825.08,
+   "y": 625.87,
+   "z": 1866.01,
+   "t": 1507.45,
+   "heading": 286.0,
+   "field_id": "T009",
+   "action": "capture"
+  },
+  {
+   "seq": 188,
+   "x": 816.71,
+   "y": 628.27,
+   "z": 1864.87,
+   "t": 1511.47,
+   "heading": 286.0,
+   "field_id": "T009",
+   "action": "capture"
+  },
+  {
+   "seq": 189,
+   "x": 808.34,
+   "y": 630.67,
+   "z": 1863.74,
+   "t": 1515.49,
+   "heading": 286.0,
+   "field_id": "T009",
+   "action": "capture"
+  },
+  {
+   "seq": 190,
+   "x": 799.96,
+   "y": 633.07,
+   "z": 1862.38,
+   "t": 1519.62,
+   "heading": 286.0,
+   "field_id": "T009",
+   "action": "capture"
+  },
+  {
+   "seq": 191,
+   "x": 791.59,
+   "y": 635.46,
+   "z": 1860.28,
+   "t": 1524.12,
+   "heading": 286.0,
+   "field_id": "T009",
+   "action": "capture"
+  },
+  {
+   "seq": 192,
+   "x": 792.5,
+   "y": 637.5,
+   "z": 1859.8,
+   "t": 1524.73,
+   "heading": 24.1,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 193,
+   "x": 542.5,
+   "y": 482.5,
+   "z": 1712.47,
+   "t": 1647.42,
+   "heading": 238.2,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 194,
+   "x": 367.5,
+   "y": 172.5,
+   "z": 1640.5,
+   "t": 1742.74,
+   "heading": 209.4,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 195,
+   "x": 367.22,
+   "y": 170.18,
+   "z": 1641.22,
+   "t": 1745.49,
+   "heading": 187.0,
+   "field_id": "T013",
+   "action": "capture"
+  },
+  {
+   "seq": 196,
+   "x": 375.23,
+   "y": 166.76,
+   "z": 1643.25,
+   "t": 1749.95,
+   "heading": 113.1,
+   "field_id": "T013",
+   "action": "capture"
+  },
+  {
+   "seq": 197,
+   "x": 383.24,
+   "y": 163.34,
+   "z": 1645.13,
+   "t": 1754.34,
+   "heading": 113.1,
+   "field_id": "T013",
+   "action": "capture"
+  },
+  {
+   "seq": 198,
+   "x": 391.25,
+   "y": 159.92,
+   "z": 1646.79,
+   "t": 1758.63,
+   "heading": 113.1,
+   "field_id": "T013",
+   "action": "capture"
+  },
+  {
+   "seq": 199,
+   "x": 399.26,
+   "y": 156.5,
+   "z": 1648.45,
+   "t": 1762.91,
+   "heading": 113.1,
+   "field_id": "T013",
+   "action": "capture"
+  },
+  {
+   "seq": 200,
+   "x": 399.33,
+   "y": 156.46,
+   "z": 1648.47,
+   "t": 1764.93,
+   "heading": 113.1,
+   "field_id": "T013",
+   "action": "capture"
+  },
+  {
+   "seq": 201,
+   "x": 398.7,
+   "y": 154.99,
+   "z": 1648.86,
+   "t": 1767.4,
+   "heading": 203.1,
+   "field_id": "T013",
+   "action": "capture"
+  },
+  {
+   "seq": 202,
+   "x": 398.62,
+   "y": 155.02,
+   "z": 1648.85,
+   "t": 1769.42,
+   "heading": 293.1,
+   "field_id": "T013",
+   "action": "capture"
+  },
+  {
+   "seq": 203,
+   "x": 390.61,
+   "y": 158.44,
+   "z": 1647.15,
+   "t": 1773.72,
+   "heading": 293.1,
+   "field_id": "T013",
+   "action": "capture"
+  },
+  {
+   "seq": 204,
+   "x": 382.6,
+   "y": 161.86,
+   "z": 1645.47,
+   "t": 1778.01,
+   "heading": 293.1,
+   "field_id": "T013",
+   "action": "capture"
+  },
+  {
+   "seq": 205,
+   "x": 374.59,
+   "y": 165.28,
+   "z": 1643.62,
+   "t": 1782.38,
+   "heading": 293.1,
+   "field_id": "T013",
+   "action": "capture"
+  },
+  {
+   "seq": 206,
+   "x": 366.58,
+   "y": 168.71,
+   "z": 1641.62,
+   "t": 1786.84,
+   "heading": 293.1,
+   "field_id": "T013",
+   "action": "capture"
+  },
+  {
+   "seq": 207,
+   "x": 367.5,
+   "y": 167.5,
+   "z": 1642.12,
+   "t": 1787.34,
+   "heading": 142.8,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 208,
+   "x": 222.5,
+   "y": 92.5,
+   "z": 1655.57,
+   "t": 1821.27,
+   "heading": 242.7,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 209,
+   "x": 217.5,
+   "y": 87.5,
+   "z": 1655.91,
+   "t": 1822.62,
+   "heading": 225.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 210,
+   "x": 218.98,
+   "y": 86.81,
+   "z": 1656.29,
+   "t": 1825.09,
+   "heading": 115.0,
+   "field_id": "T011",
+   "action": "capture"
+  },
+  {
+   "seq": 211,
+   "x": 226.8,
+   "y": 82.98,
+   "z": 1658.35,
+   "t": 1829.57,
+   "heading": 116.1,
+   "field_id": "T011",
+   "action": "capture"
+  },
+  {
+   "seq": 212,
+   "x": 234.62,
+   "y": 79.14,
+   "z": 1660.54,
+   "t": 1834.11,
+   "heading": 116.1,
+   "field_id": "T011",
+   "action": "capture"
+  },
+  {
+   "seq": 213,
+   "x": 242.44,
+   "y": 75.31,
+   "z": 1662.71,
+   "t": 1838.65,
+   "heading": 116.1,
+   "field_id": "T011",
+   "action": "capture"
+  },
+  {
+   "seq": 214,
+   "x": 250.27,
+   "y": 71.48,
+   "z": 1664.66,
+   "t": 1843.08,
+   "heading": 116.1,
+   "field_id": "T011",
+   "action": "capture"
+  },
+  {
+   "seq": 215,
+   "x": 252.56,
+   "y": 70.35,
+   "z": 1665.21,
+   "t": 1845.78,
+   "heading": 116.1,
+   "field_id": "T011",
+   "action": "capture"
+  },
+  {
+   "seq": 216,
+   "x": 252.38,
+   "y": 69.99,
+   "z": 1665.29,
+   "t": 1847.89,
+   "heading": 206.1,
+   "field_id": "T011",
+   "action": "capture"
+  },
+  {
+   "seq": 217,
+   "x": 250.09,
+   "y": 71.12,
+   "z": 1664.74,
+   "t": 1850.59,
+   "heading": 296.1,
+   "field_id": "T011",
+   "action": "capture"
+  },
+  {
+   "seq": 218,
+   "x": 242.27,
+   "y": 74.95,
+   "z": 1662.79,
+   "t": 1855.01,
+   "heading": 296.1,
+   "field_id": "T011",
+   "action": "capture"
+  },
+  {
+   "seq": 219,
+   "x": 234.45,
+   "y": 78.78,
+   "z": 1660.61,
+   "t": 1859.56,
+   "heading": 296.1,
+   "field_id": "T011",
+   "action": "capture"
+  },
+  {
+   "seq": 220,
+   "x": 226.63,
+   "y": 82.62,
+   "z": 1658.4,
+   "t": 1864.11,
+   "heading": 296.1,
+   "field_id": "T011",
+   "action": "capture"
+  },
+  {
+   "seq": 221,
+   "x": 218.8,
+   "y": 86.45,
+   "z": 1656.35,
+   "t": 1868.59,
+   "heading": 296.1,
+   "field_id": "T011",
+   "action": "capture"
+  },
+  {
+   "seq": 222,
+   "x": 217.5,
+   "y": 87.5,
+   "z": 1655.91,
+   "t": 1869.09,
+   "heading": 308.9,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 223,
+   "x": 162.5,
+   "y": 47.5,
+   "z": 1670.64,
+   "t": 1887.79,
+   "heading": 234.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 224,
+   "x": 164.85,
+   "y": 45.05,
+   "z": 1671.36,
+   "t": 1890.71,
+   "heading": 136.3,
+   "field_id": "T004",
+   "action": "capture"
+  },
+  {
+   "seq": 225,
+   "x": 165.61,
+   "y": 53.72,
+   "z": 1668.53,
+   "t": 1895.58,
+   "heading": 5.0,
+   "field_id": "T004",
+   "action": "capture"
+  },
+  {
+   "seq": 226,
+   "x": 166.2,
+   "y": 60.47,
+   "z": 1666.19,
+   "t": 1899.88,
+   "heading": 5.0,
+   "field_id": "T004",
+   "action": "capture"
+  },
+  {
+   "seq": 227,
+   "x": 154.79,
+   "y": 61.47,
+   "z": 1666.11,
+   "t": 1903.83,
+   "heading": 275.0,
+   "field_id": "T004",
+   "action": "capture"
+  },
+  {
+   "seq": 228,
+   "x": 154.19,
+   "y": 54.73,
+   "z": 1668.26,
+   "t": 1908.03,
+   "heading": 185.0,
+   "field_id": "T004",
+   "action": "capture"
+  },
+  {
+   "seq": 229,
+   "x": 153.43,
+   "y": 46.05,
+   "z": 1670.95,
+   "t": 1912.83,
+   "heading": 185.0,
+   "field_id": "T004",
+   "action": "capture"
+  },
+  {
+   "seq": 230,
+   "x": 142.01,
+   "y": 47.05,
+   "z": 1670.27,
+   "t": 1917.08,
+   "heading": 275.0,
+   "field_id": "T004",
+   "action": "capture"
+  },
+  {
+   "seq": 231,
+   "x": 142.78,
+   "y": 55.73,
+   "z": 1667.71,
+   "t": 1921.82,
+   "heading": 5.0,
+   "field_id": "T004",
+   "action": "capture"
+  },
+  {
+   "seq": 232,
+   "x": 143.37,
+   "y": 62.48,
+   "z": 1665.71,
+   "t": 1925.94,
+   "heading": 5.0,
+   "field_id": "T004",
+   "action": "capture"
+  },
+  {
+   "seq": 233,
+   "x": 131.95,
+   "y": 63.48,
+   "z": 1665.38,
+   "t": 1930.02,
+   "heading": 275.0,
+   "field_id": "T004",
+   "action": "capture"
+  },
+  {
+   "seq": 234,
+   "x": 131.36,
+   "y": 56.74,
+   "z": 1667.25,
+   "t": 1934.08,
+   "heading": 185.0,
+   "field_id": "T004",
+   "action": "capture"
+  },
+  {
+   "seq": 235,
+   "x": 130.6,
+   "y": 48.06,
+   "z": 1669.71,
+   "t": 1938.77,
+   "heading": 185.0,
+   "field_id": "T004",
+   "action": "capture"
+  },
+  {
+   "seq": 236,
+   "x": 132.5,
+   "y": 47.5,
+   "z": 1669.82,
+   "t": 1939.15,
+   "heading": 106.4,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 237,
+   "x": 17.5,
+   "y": 162.5,
+   "z": 1645.68,
+   "t": 1978.33,
+   "heading": 315.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 238,
+   "x": 137.5,
+   "y": 257.5,
+   "z": 1617.99,
+   "t": 2017.68,
+   "heading": 51.6,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 239,
+   "x": 136.3,
+   "y": 259.06,
+   "z": 1617.7,
+   "t": 2020.15,
+   "heading": 322.6,
+   "field_id": "T003",
+   "action": "capture"
+  },
+  {
+   "seq": 240,
+   "x": 138.82,
+   "y": 253.39,
+   "z": 1618.73,
+   "t": 2023.7,
+   "heading": 156.1,
+   "field_id": "T003",
+   "action": "capture"
+  },
+  {
+   "seq": 241,
+   "x": 142.35,
+   "y": 245.43,
+   "z": 1619.98,
+   "t": 2027.78,
+   "heading": 156.1,
+   "field_id": "T003",
+   "action": "capture"
+  },
+  {
+   "seq": 242,
+   "x": 152.15,
+   "y": 249.78,
+   "z": 1618.24,
+   "t": 2032.44,
+   "heading": 66.1,
+   "field_id": "T003",
+   "action": "capture"
+  },
+  {
+   "seq": 243,
+   "x": 148.62,
+   "y": 257.74,
+   "z": 1617.15,
+   "t": 2036.44,
+   "heading": 336.1,
+   "field_id": "T003",
+   "action": "capture"
+  },
+  {
+   "seq": 244,
+   "x": 146.1,
+   "y": 263.41,
+   "z": 1616.28,
+   "t": 2039.9,
+   "heading": 336.1,
+   "field_id": "T003",
+   "action": "capture"
+  },
+  {
+   "seq": 245,
+   "x": 155.91,
+   "y": 267.76,
+   "z": 1615.03,
+   "t": 2044.32,
+   "heading": 66.1,
+   "field_id": "T003",
+   "action": "capture"
+  },
+  {
+   "seq": 246,
+   "x": 158.4,
+   "y": 262.14,
+   "z": 1615.79,
+   "t": 2047.72,
+   "heading": 156.1,
+   "field_id": "T003",
+   "action": "capture"
+  },
+  {
+   "seq": 247,
+   "x": 161.94,
+   "y": 254.18,
+   "z": 1616.73,
+   "t": 2051.64,
+   "heading": 156.1,
+   "field_id": "T003",
+   "action": "capture"
+  },
+  {
+   "seq": 248,
+   "x": 162.5,
+   "y": 252.5,
+   "z": 1616.93,
+   "t": 2052.04,
+   "heading": 161.4,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 249,
+   "x": 837.5,
+   "y": 687.5,
+   "z": 1860.2,
+   "t": 2307.51,
+   "heading": 57.2,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 250,
+   "x": 852.5,
+   "y": 702.5,
+   "z": 1863.27,
+   "t": 2312.58,
+   "heading": 45.0,
+   "field_id": null,
+   "action": "transit"
+  },
+  {
+   "seq": 251,
+   "x": 850.0,
+   "y": 705.0,
+   "z": 1838.46,
+   "t": 2321.26,
+   "heading": 0.0,
+   "field_id": null,
+   "action": "land"
+  }
+ ],
+ "metrics": {
+  "method": "improved",
+  "path_length_m": 6458.7,
+  "flight_time_s": 2321.3,
+  "energy_wh": 136.46,
+  "battery_pct_used": 45.5,
+  "battery_reserve_ok": true,
+  "planning_time_s": 1.499,
+  "n_waypoints": 252,
+  "n_fields": 22,
+  "n_images": 192,
+  "high_risk_mean_order": 4.0,
+  "weighted_latency_s": 823.1,
+  "min_clearance_m": 5.0,
+  "mean_clearance_m": 57.6,
+  "collision_count": 0,
+  "safety_violation_m": 0.0,
+  "near_obstacle_length_m": 256.2,
+  "coverage_pct": null,
+  "coverage_pct_mean_field": null
+ }
+}

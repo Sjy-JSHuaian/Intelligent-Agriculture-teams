@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[0, 0], [700.0, 0], [700.0, 700.0], [0, 700.0], [0, 0]]]}, "properties": {"name": "scene_simple", "crs": "EPSG:32648"}}]}

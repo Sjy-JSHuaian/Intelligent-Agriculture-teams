@@ -1,0 +1,4 @@
+﻿path,bytes,sha256,source,license
+Copernicus_DEM_GLO30/raw/Copernicus_DSM_COG_10_N23_00_E102_00_DEM.tif,43533597,55f5ce0cb98db16eeb1d0c0658b1eb113b256e7febf85e599567113ddcd52a18,Copernicus DEM GLO-30 / AWS Open Data,Copernicus DEM 免费开放（注明来源）
+OpenStreetMap/raw/osm_yuanyang_core.json,887727,dfc429b2c592fabe391bd1c98ea12bf5f2407359230cb9838f4197cc2062af87,OpenStreetMap contributors / Overpass API,ODbL 1.0
+OpenStreetMap/raw/osm_yuanyang_core.geojson,410073,109450427674aaab1e282a67d58f47073b44c68b6202878b2f77b77460c69f1d,由 osm_yuanyang_core.json 转换,ODbL 1.0
