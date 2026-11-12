@@ -1,0 +1,31 @@
+# 数据集配置（LoveDA）
+dataset:
+  name: LoveDA
+  root: data/raw/loveda          # 相对于 image_analysis 根目录
+  scenes: [urban, rural]         # LoveDA 分为城市 / 乡村两个场景
+  splits: [train, val, test]     # 官方划分（Test 可能无掩膜，用于最终推理）
+
+  image_dir: images_png          # 影像子目录
+  mask_dir: masks_png            # 掩膜子目录
+  image_suffix: .png
+  mask_suffix: .png
+
+  # 类别定义（原始掩膜取值 0-7；0 为 no-data，训练时忽略并重映射 1-7 -> 0-6）
+  raw_ignore_index: 0
+  ignore_index: 255            # 重映射后的忽略值
+  num_classes: 7               # 7 个语义类别
+  classes:
+    0: no-data                 # 忽略
+    1: background
+    2: building
+    3: road
+    4: water
+    5: barren
+    6: forest
+    7: agriculture
+
+  # 切片参数（1024x1024 -> 256x256）
+  tiling:
+    tile_size: 256
+    stride: 256                  # stride == tile_size 表示不重叠
+    min_valid_ratio: 0.05        # 有效像素（非背景）占比低于该值的切片丢弃

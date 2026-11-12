@@ -1,0 +1,19 @@
+# 训练配置（SegFormer-B0，与 U-Net 同规模快速验证对比）
+data:
+  root: data/raw/loveda
+  scenes: [urban, rural]
+  train_subset: 100
+  val_subset: 20
+  tile_size: 256
+
+training:
+  seed: 42
+  batch_size: 8
+  epochs: 8
+  lr: 0.0001
+  weight_decay: 0.0001
+  dice_weight: 0.5
+  num_workers: 0
+  log_interval: 10
+  save_dir: checkpoints_segformer
+  output_dir: outputs

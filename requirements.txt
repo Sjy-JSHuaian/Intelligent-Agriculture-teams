@@ -1,0 +1,43 @@
+# 图像智能分析模块依赖（本机 conda 环境 DL 已装，供 A/C 同学复现）
+# 目标环境：conda 环境 DL（Python 3.11.15，torch 2.13.0+cpu，CPU-only）
+
+# ---- 核心深度学习 ----
+torch>=2.13.0        # 已装（+cpu）
+torchvision>=0.28.0  # 已装但需修复 pillow
+
+# ---- 影像处理 / 遥感 ----
+rasterio>=1.3        # GeoTIFF 读取、地理参考
+opencv-python>=4.8   # 图像处理
+gdal                  # 可选，仅在需要复杂投影/重采样时安装（rasterio 已可覆盖大部分需求）
+
+# ---- 数值与科学计算 ----
+numpy>=2.0
+pandas>=2.0
+scipy>=1.10
+
+# ---- 机器学习 / 增强 ----
+scikit-learn>=1.3
+albumentations>=1.3
+
+# ---- 分割模型库 ----
+segmentation-models-pytorch>=0.3   # U-Net / 各编码器
+timm>=0.9                           # SegFormer 编码器 (mit_b*)
+
+# ---- Transformer ----
+transformers>=4.35                  # SegFormer 预训练权重（可选）
+
+# ---- 可视化 ----
+matplotlib>=3.7
+
+# ---- Web API ----
+fastapi>=0.110        # 已装 0.141.1
+uvicorn[standard]>=0.27  # 已装 0.52.4
+python-multipart>=0.0.6 # 文件上传
+
+# ---- 测试 ----
+pytest>=7.4
+
+# 注意：
+# 1. CPU-only，不装 CUDA 相关（causal-conv1d / mamba-ssm 的 CUDA 版本）。
+# 2. VMamba 官方实现依赖 CUDA，CPU 环境下仅作代码/结构复现与论文对照，不要求训练。
+# 3. pillow 需重装以修复 torchvision 的 _imaging 导入错误。

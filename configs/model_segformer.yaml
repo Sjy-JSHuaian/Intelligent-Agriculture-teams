@@ -1,0 +1,5 @@
+# 模型配置（SegFormer-B0，迁移学习）
+model:
+  name: segformer
+  pretrained: nvidia/mit-b0   # ImageNet 预训练 MiT-B0 骨干（经 hf-mirror 下载）
+  num_classes: 7

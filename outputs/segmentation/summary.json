@@ -1,0 +1,59 @@
+[
+  {
+    "name": "2522",
+    "metrics": {
+      "accuracy": 0.419708251953125,
+      "precision": 0.21115109225653242,
+      "recall": 0.22670887181477342,
+      "iou": 0.12490818638620839,
+      "dice": 0.18908947229054865
+    },
+    "class_distribution_pct": {
+      "background": 40.49,
+      "building": 23.09,
+      "road": 0.46,
+      "water": 0.49,
+      "barren": 0.15,
+      "forest": 1.11,
+      "agriculture": 34.21
+    }
+  },
+  {
+    "name": "2523",
+    "metrics": {
+      "accuracy": 0.5225067138671875,
+      "precision": 0.21703288988626016,
+      "recall": 0.2569117201461776,
+      "iou": 0.0990832315159892,
+      "dice": 0.14297217176791038
+    },
+    "class_distribution_pct": {
+      "background": 75.71,
+      "building": 7.79,
+      "road": 0.12,
+      "water": 0.47,
+      "barren": 0.01,
+      "forest": 12.04,
+      "agriculture": 3.88
+    }
+  },
+  {
+    "name": "2524",
+    "metrics": {
+      "accuracy": 0.2978057861328125,
+      "precision": 0.19706749377964913,
+      "recall": 0.12251905511039475,
+      "iou": 0.08218580866590355,
+      "dice": 0.1315108636842271
+    },
+    "class_distribution_pct": {
+      "background": 23.92,
+      "building": 12.04,
+      "road": 0.07,
+      "water": 24.03,
+      "barren": 0.04,
+      "forest": 1.43,
+      "agriculture": 38.48
+    }
+  }
+]
