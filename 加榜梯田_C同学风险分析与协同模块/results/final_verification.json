@@ -1,0 +1,12 @@
+{
+  "daily_signal_rows": 9130,
+  "unique_date_type_keys": 9130,
+  "annual_counts_match_saved_daily_results": true,
+  "real_field_tasks": 0,
+  "synthetic_examples_separated": true,
+  "pdf_pages": 5,
+  "pdf_visual_review": "5 pages rendered with Poppler and inspected",
+  "python_scripts_compile": "passed",
+  "tests": "29 passed",
+  "integration_scope": "Local adapter and FastAPI TestClient only; no live peer service or database deployment"
+}

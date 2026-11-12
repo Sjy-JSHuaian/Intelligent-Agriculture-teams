@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ERA5_J01",
+        "role": "provider_returned_grid",
+        "source": "Open-Meteo ERA5-Land"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.600006,
+          25.599998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CH01",
+        "role": "provider_selected_grid",
+        "source": "ClimateSERV CHIRPS v2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.57500430010259,
+          25.624999636784196
+        ]
+      }
+    }
+  ]
+}

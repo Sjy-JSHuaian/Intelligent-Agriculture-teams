@@ -1,0 +1,342 @@
+{
+  "site_id": "jiabang_initial_aoi",
+  "period": [
+    "2021-01-01",
+    "2025-12-31"
+  ],
+  "reference_period": [
+    "2021-01-01",
+    "2023-12-31"
+  ],
+  "thresholds_frozen_for": "2024-2025; no outcome labels and no accuracy evaluation",
+  "annual_precipitation": [
+    {
+      "year": 2021,
+      "days": 365,
+      "chirps_mm": 1560.24575142,
+      "nasa_mm": 1755.3899999999999
+    },
+    {
+      "year": 2022,
+      "days": 365,
+      "chirps_mm": 1322.80064298,
+      "nasa_mm": 1599.02
+    },
+    {
+      "year": 2023,
+      "days": 365,
+      "chirps_mm": 951.5168433200001,
+      "nasa_mm": 1139.54
+    },
+    {
+      "year": 2024,
+      "days": 366,
+      "chirps_mm": 1661.20511402,
+      "nasa_mm": 1835.1
+    },
+    {
+      "year": 2025,
+      "days": 365,
+      "chirps_mm": 1791.18128071,
+      "nasa_mm": 1650.02
+    }
+  ],
+  "annual_screening": [
+    {
+      "year": 2021,
+      "event_type": "rainfall",
+      "event_name": "集中降雨关注",
+      "valid_days": 363,
+      "candidate_days": 40,
+      "level2_days": 22,
+      "candidate_day_percent": 11.019283746556473,
+      "episodes_starting_in_year": 16,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2021,
+      "event_type": "water_supply",
+      "event_name": "少雨与土壤偏干关注",
+      "valid_days": 336,
+      "candidate_days": 0,
+      "level2_days": 0,
+      "candidate_day_percent": 0.0,
+      "episodes_starting_in_year": 0,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2021,
+      "event_type": "wet_environment",
+      "event_name": "持续湿润环境关注",
+      "valid_days": 359,
+      "candidate_days": 46,
+      "level2_days": 20,
+      "candidate_day_percent": 12.813370473537605,
+      "episodes_starting_in_year": 11,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2021,
+      "event_type": "warm_anomaly",
+      "event_name": "偏热背景关注",
+      "valid_days": 363,
+      "candidate_days": 13,
+      "level2_days": 4,
+      "candidate_day_percent": 3.581267217630854,
+      "episodes_starting_in_year": 4,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2021,
+      "event_type": "cold_anomaly",
+      "event_name": "偏冷背景关注",
+      "valid_days": 363,
+      "candidate_days": 14,
+      "level2_days": 7,
+      "candidate_day_percent": 3.8567493112947657,
+      "episodes_starting_in_year": 5,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2022,
+      "event_type": "rainfall",
+      "event_name": "集中降雨关注",
+      "valid_days": 365,
+      "candidate_days": 41,
+      "level2_days": 16,
+      "candidate_day_percent": 11.232876712328768,
+      "episodes_starting_in_year": 14,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2022,
+      "event_type": "water_supply",
+      "event_name": "少雨与土壤偏干关注",
+      "valid_days": 365,
+      "candidate_days": 16,
+      "level2_days": 1,
+      "candidate_day_percent": 4.383561643835616,
+      "episodes_starting_in_year": 5,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2022,
+      "event_type": "wet_environment",
+      "event_name": "持续湿润环境关注",
+      "valid_days": 365,
+      "candidate_days": 43,
+      "level2_days": 26,
+      "candidate_day_percent": 11.780821917808218,
+      "episodes_starting_in_year": 7,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2022,
+      "event_type": "warm_anomaly",
+      "event_name": "偏热背景关注",
+      "valid_days": 365,
+      "candidate_days": 0,
+      "level2_days": 0,
+      "candidate_day_percent": 0.0,
+      "episodes_starting_in_year": 0,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2022,
+      "event_type": "cold_anomaly",
+      "event_name": "偏冷背景关注",
+      "valid_days": 365,
+      "candidate_days": 20,
+      "level2_days": 8,
+      "candidate_day_percent": 5.47945205479452,
+      "episodes_starting_in_year": 6,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2023,
+      "event_type": "rainfall",
+      "event_name": "集中降雨关注",
+      "valid_days": 365,
+      "candidate_days": 22,
+      "level2_days": 13,
+      "candidate_day_percent": 6.027397260273973,
+      "episodes_starting_in_year": 8,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2023,
+      "event_type": "water_supply",
+      "event_name": "少雨与土壤偏干关注",
+      "valid_days": 365,
+      "candidate_days": 21,
+      "level2_days": 3,
+      "candidate_day_percent": 5.7534246575342465,
+      "episodes_starting_in_year": 3,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2023,
+      "event_type": "wet_environment",
+      "event_name": "持续湿润环境关注",
+      "valid_days": 365,
+      "candidate_days": 5,
+      "level2_days": 0,
+      "candidate_day_percent": 1.36986301369863,
+      "episodes_starting_in_year": 3,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2023,
+      "event_type": "warm_anomaly",
+      "event_name": "偏热背景关注",
+      "valid_days": 365,
+      "candidate_days": 54,
+      "level2_days": 28,
+      "candidate_day_percent": 14.794520547945206,
+      "episodes_starting_in_year": 17,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2023,
+      "event_type": "cold_anomaly",
+      "event_name": "偏冷背景关注",
+      "valid_days": 365,
+      "candidate_days": 11,
+      "level2_days": 7,
+      "candidate_day_percent": 3.0136986301369864,
+      "episodes_starting_in_year": 3,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2024,
+      "event_type": "rainfall",
+      "event_name": "集中降雨关注",
+      "valid_days": 366,
+      "candidate_days": 54,
+      "level2_days": 33,
+      "candidate_day_percent": 14.754098360655737,
+      "episodes_starting_in_year": 18,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2024,
+      "event_type": "water_supply",
+      "event_name": "少雨与土壤偏干关注",
+      "valid_days": 366,
+      "candidate_days": 15,
+      "level2_days": 0,
+      "candidate_day_percent": 4.098360655737705,
+      "episodes_starting_in_year": 2,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2024,
+      "event_type": "wet_environment",
+      "event_name": "持续湿润环境关注",
+      "valid_days": 366,
+      "candidate_days": 31,
+      "level2_days": 18,
+      "candidate_day_percent": 8.469945355191257,
+      "episodes_starting_in_year": 7,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2024,
+      "event_type": "warm_anomaly",
+      "event_name": "偏热背景关注",
+      "valid_days": 366,
+      "candidate_days": 19,
+      "level2_days": 5,
+      "candidate_day_percent": 5.191256830601093,
+      "episodes_starting_in_year": 9,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2024,
+      "event_type": "cold_anomaly",
+      "event_name": "偏冷背景关注",
+      "valid_days": 366,
+      "candidate_days": 15,
+      "level2_days": 6,
+      "candidate_day_percent": 4.098360655737705,
+      "episodes_starting_in_year": 4,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2025,
+      "event_type": "rainfall",
+      "event_name": "集中降雨关注",
+      "valid_days": 365,
+      "candidate_days": 45,
+      "level2_days": 23,
+      "candidate_day_percent": 12.32876712328767,
+      "episodes_starting_in_year": 14,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2025,
+      "event_type": "water_supply",
+      "event_name": "少雨与土壤偏干关注",
+      "valid_days": 365,
+      "candidate_days": 1,
+      "level2_days": 0,
+      "candidate_day_percent": 0.273972602739726,
+      "episodes_starting_in_year": 1,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2025,
+      "event_type": "wet_environment",
+      "event_name": "持续湿润环境关注",
+      "valid_days": 365,
+      "candidate_days": 25,
+      "level2_days": 19,
+      "candidate_day_percent": 6.8493150684931505,
+      "episodes_starting_in_year": 6,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2025,
+      "event_type": "warm_anomaly",
+      "event_name": "偏热背景关注",
+      "valid_days": 365,
+      "candidate_days": 9,
+      "level2_days": 5,
+      "candidate_day_percent": 2.4657534246575343,
+      "episodes_starting_in_year": 4,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    },
+    {
+      "year": 2025,
+      "event_type": "cold_anomaly",
+      "event_name": "偏冷背景关注",
+      "valid_days": 365,
+      "candidate_days": 9,
+      "level2_days": 2,
+      "candidate_day_percent": 2.4657534246575343,
+      "episodes_starting_in_year": 4,
+      "interpretation": "Screened days may overlap across types; not disease incidence or model accuracy"
+    }
+  ],
+  "daily_precip_correlation": 0.5849354829917192,
+  "monthly_precip_correlation": 0.9445672079591774,
+  "monthly_precip_pairs": 60,
+  "rainfall_candidate_days_2024_2025": 99,
+  "nasa_supported_rainfall_days_2024_2025": 40,
+  "rainfall_support_evaluable_days": 99,
+  "case_peak_rain_3d": {
+    "date": "2025-06-24",
+    "chirps_3d_mm": 240.67741013,
+    "nasa_3d_mm": 148.13,
+    "candidates": [
+      "集中降雨关注",
+      "持续湿润环境关注"
+    ]
+  },
+  "real_image_observations_available": 0,
+  "real_verified_field_boundaries_available": 0,
+  "real_field_inspection_requests": 0,
+  "accuracy_metrics": null,
+  "scope": "Regional historical screening, not flood/disease diagnosis, not a forecast",
+  "time_alignment": "Source dates not harmonized; support is an approximate cross-product comparison, not ground-truth validation"
+}

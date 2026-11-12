@@ -1,0 +1,38 @@
+[
+  {
+    "name": "2522",
+    "VARI_mean": 31.671903610229492,
+    "VARI_max": 192156.859375,
+    "within_current_code_clipped_range": false,
+    "eligible_for_jiabang_fusion": false,
+    "reasons": [
+      "Saved LoveDA example, not confirmed Jiabang imagery",
+      "No capture date or verified field association",
+      "Saved VARI statistics inconsistent with current clipped implementation; regenerate with current code"
+    ]
+  },
+  {
+    "name": "2523",
+    "VARI_mean": 98.42193603515625,
+    "VARI_max": 141176.46875,
+    "within_current_code_clipped_range": false,
+    "eligible_for_jiabang_fusion": false,
+    "reasons": [
+      "Saved LoveDA example, not confirmed Jiabang imagery",
+      "No capture date or verified field association",
+      "Saved VARI statistics inconsistent with current clipped implementation; regenerate with current code"
+    ]
+  },
+  {
+    "name": "2524",
+    "VARI_mean": 95.99927520751953,
+    "VARI_max": 125490.1875,
+    "within_current_code_clipped_range": false,
+    "eligible_for_jiabang_fusion": false,
+    "reasons": [
+      "Saved LoveDA example, not confirmed Jiabang imagery",
+      "No capture date or verified field association",
+      "Saved VARI statistics inconsistent with current clipped implementation; regenerate with current code"
+    ]
+  }
+]

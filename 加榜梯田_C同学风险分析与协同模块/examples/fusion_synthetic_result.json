@@ -1,0 +1,140 @@
+{
+  "mode": "synthetic_contract_demo",
+  "as_of_date": "2025-06-24",
+  "regional_candidates": [
+    {
+      "date": "2025-06-24",
+      "site_id": "jiabang_initial_aoi",
+      "event_type": "rainfall",
+      "event_name": "集中降雨关注",
+      "screen_level": 2,
+      "status": "candidate",
+      "indicator_values": {
+        "chirps_rain_3d_mm": 240.67741013
+      },
+      "thresholds": {
+        "rain_3d_q90_mm": 65.27652645,
+        "rain_3d_q95_mm": 80.42536472750001
+      },
+      "missing_inputs": [],
+      "nasa_rainfall_same_date_support": true,
+      "rule_version": "jiabang-screen-v1.0",
+      "phase": "held_out_frozen",
+      "spatial_support": "regional_background",
+      "evidence_status": "weather_screen_only",
+      "inspection_topic": "核查排水口、沟渠和田埂",
+      "is_diagnosis": false,
+      "is_forecast": false
+    },
+    {
+      "date": "2025-06-24",
+      "site_id": "jiabang_initial_aoi",
+      "event_type": "wet_environment",
+      "event_name": "持续湿润环境关注",
+      "screen_level": 1,
+      "status": "candidate",
+      "indicator_values": {
+        "rh_7d_pct": 92.02857142857142,
+        "nasa_wet_days_7d": 7.0
+      },
+      "thresholds": {
+        "rh_q90_pct": 90.91357142857143,
+        "rh_q95_pct": 92.03750000000001,
+        "min_wet_days_7d": 4
+      },
+      "missing_inputs": [],
+      "nasa_rainfall_same_date_support": null,
+      "rule_version": "jiabang-screen-v1.0",
+      "phase": "held_out_frozen",
+      "spatial_support": "regional_background",
+      "evidence_status": "weather_screen_only",
+      "inspection_topic": "核查长势与叶片异常，结合人工农艺判断",
+      "is_diagnosis": false,
+      "is_forecast": false
+    }
+  ],
+  "accepted_image_observations": [
+    {
+      "observation_id": "SYNTHETIC_IMAGE_001",
+      "plot_id": "SYNTHETIC_PLOT_001",
+      "captured_at": "2025-06-24T10:00:00+08:00",
+      "capture_date": "2025-06-24",
+      "low_vigor_fraction": 0.05,
+      "bare_land_fraction": 0.02,
+      "fraction_denominator": "all_pixels_in_verified_plot_crop",
+      "mask_paths": {
+        "low_vigor_mask": "/files/api/SYNTHETIC/low_vigor.png",
+        "bare_land_mask": "/files/api/SYNTHETIC/bare_land.png"
+      },
+      "segmentation_overlay": null,
+      "evidence_status": "rgb_model_candidate_not_diagnosis",
+      "is_synthetic": true,
+      "source_reference": "SYNTHETIC API CONTRACT TEST"
+    }
+  ],
+  "quarantined_observations": [],
+  "inspection_requests": [
+    {
+      "request_id": "JB-2025-06-24-SYNTHETIC_PLOT_001",
+      "plot_id": "SYNTHETIC_PLOT_001",
+      "as_of_date": "2025-06-24",
+      "priority": "P1",
+      "priority_meaning": "Inspection ordering only, not probability or agronomic severity",
+      "task_type": "inspection_only",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              108.586,
+              25.602
+            ],
+            [
+              108.587,
+              25.602
+            ],
+            [
+              108.587,
+              25.603
+            ],
+            [
+              108.586,
+              25.603
+            ],
+            [
+              108.586,
+              25.602
+            ]
+          ]
+        ]
+      },
+      "geometry_crs": "EPSG:4326",
+      "weather_event_types": [
+        "rainfall",
+        "wet_environment"
+      ],
+      "observation_id": "SYNTHETIC_IMAGE_001",
+      "reasons": [
+        "A latest verified plot crop contains low-greenness candidate pixels; cause unknown",
+        "Recent verified local drainage problem",
+        "集中降雨关注: 核查排水口、沟渠和田埂",
+        "持续湿润环境关注: 核查长势与叶片异常，结合人工农艺判断"
+      ],
+      "evidence_status": "weather_and_local_candidate",
+      "unknowns": [
+        "crop_growth_stage",
+        "cause_of_image_anomaly",
+        "agronomic_validation"
+      ],
+      "execution_status": "awaiting_B_route_and_site_checks",
+      "flight_ready": false,
+      "chemical_or_fertilizer_dose": null,
+      "is_synthetic_demo": true
+    }
+  ],
+  "plots_without_local_evidence": [],
+  "missing_inputs": [],
+  "is_forecast": false,
+  "live_data_availability_verified": false,
+  "note": "Historical daily review; coarse weather is shared background. No executable flight or chemical prescription."
+}

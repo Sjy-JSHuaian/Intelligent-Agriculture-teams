@@ -1,0 +1,22 @@
+[
+  {
+    "file": "inputs/weather_daily.csv",
+    "original_package_file": "02_整理后表格/J01_入门合并日表.csv",
+    "sha256": "e85d205b6ac1d370a9db630500d6b5a1a44adcdba4701a6b4f11bc5c3c337a1f"
+  },
+  {
+    "file": "inputs/study_area.json",
+    "original_package_file": "study_area.json",
+    "sha256": "d405089a6bb651e8d94c4f3416ca3b9b8fb59b053da23cc6a601482e991cd542"
+  },
+  {
+    "file": "inputs/source_quality.json",
+    "original_package_file": "05_来源与核验/数据质量核验.json",
+    "sha256": "30f23521efddca1f318fd2bc739837060b011d91299fd334350ce30e6af022eb"
+  },
+  {
+    "file": "inputs/source_download_manifest.json",
+    "original_package_file": "05_来源与核验/base_download_manifest.json",
+    "sha256": "e966de8657727a48da909096105a4e4e671972136a45a53aa9dbd7254540b5ba"
+  }
+]

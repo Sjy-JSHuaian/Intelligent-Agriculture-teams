@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "pandas": "3.0.1",
+  "numpy": "2.5.4",
+  "matplotlib": "3.11.2",
+  "fastapi": "0.162.2",
+  "shapely": "2.2.0"
+}

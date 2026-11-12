@@ -1,0 +1,10 @@
+{
+  "xlsx_rows": 1826,
+  "xlsx_dates_verified": 1826,
+  "xlsx_numeric_cells_verified": 20086,
+  "xlsx_error_cells": 0,
+  "native_table": "present",
+  "freeze_pane": "present",
+  "scripts_compile": "passed",
+  "visual_review": "Both sheets and source notes rendered and inspected; no clipped content"
+}

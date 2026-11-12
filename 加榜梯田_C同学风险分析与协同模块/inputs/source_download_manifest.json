@@ -1,0 +1,50 @@
+[
+  {
+    "provider": "NASA_POWER",
+    "file": "nasa_power_J01_2021-2025.json",
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CRH2M%2CPRECTOTCORR%2CWS2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=108.586886&latitude=25.602516&start=20210101&end=20251231&format=JSON&time-standard=LST",
+    "bytes": 211541,
+    "sha256": "db0694e748149251c25ef5acb93cb7f63f9d7b986783ee57ac39e9d6fbe65631",
+    "retrieved_at_utc": "2026-11-09T16:11:51.577359+00:00"
+  },
+  {
+    "provider": "ERA5_Land_via_OpenMeteo",
+    "file": "era5_land_J01_2021.json",
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=25.602516&longitude=108.586886&start_date=2021-01-01&end_date=2021-12-31&hourly=soil_moisture_0_to_7cm%2Csoil_moisture_7_to_28cm%2Ctemperature_2m&models=era5_land&timezone=Asia%2FShanghai&elevation=nan&cell_selection=land",
+    "bytes": 314032,
+    "sha256": "1e78b7655e0b7cd32610eeb82903a1ecf1b339d2f48ee5ad32670a90496d80b2",
+    "retrieved_at_utc": "2026-11-09T16:11:52.798204+00:00"
+  },
+  {
+    "provider": "ERA5_Land_via_OpenMeteo",
+    "file": "era5_land_J01_2022.json",
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=25.602516&longitude=108.586886&start_date=2022-01-01&end_date=2022-12-31&hourly=soil_moisture_0_to_7cm%2Csoil_moisture_7_to_28cm%2Ctemperature_2m&models=era5_land&timezone=Asia%2FShanghai&elevation=nan&cell_selection=land",
+    "bytes": 313876,
+    "sha256": "2ae4ad2bd77d5012221a27cd1064344fa3051dc79e120156073cfef460ddd7e4",
+    "retrieved_at_utc": "2026-11-09T16:11:53.018155+00:00"
+  },
+  {
+    "provider": "ERA5_Land_via_OpenMeteo",
+    "file": "era5_land_J01_2023.json",
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=25.602516&longitude=108.586886&start_date=2023-01-01&end_date=2023-12-31&hourly=soil_moisture_0_to_7cm%2Csoil_moisture_7_to_28cm%2Ctemperature_2m&models=era5_land&timezone=Asia%2FShanghai&elevation=nan&cell_selection=land",
+    "bytes": 314122,
+    "sha256": "4a4a8d62b14662b27afbff05a5d4b486dcb6f124a95f3a0bf2ebad11b23559b0",
+    "retrieved_at_utc": "2026-11-09T16:11:54.524562+00:00"
+  },
+  {
+    "provider": "ERA5_Land_via_OpenMeteo",
+    "file": "era5_land_J01_2024.json",
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=25.602516&longitude=108.586886&start_date=2024-01-01&end_date=2024-12-31&hourly=soil_moisture_0_to_7cm%2Csoil_moisture_7_to_28cm%2Ctemperature_2m&models=era5_land&timezone=Asia%2FShanghai&elevation=nan&cell_selection=land",
+    "bytes": 315090,
+    "sha256": "a620cfb8fe67c21ac38ebdb9afca6817b1a654ec55d713e9685a5f5fa11705bc",
+    "retrieved_at_utc": "2026-11-09T16:11:55.758940+00:00"
+  },
+  {
+    "provider": "ERA5_Land_via_OpenMeteo",
+    "file": "era5_land_J01_2025.json",
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=25.602516&longitude=108.586886&start_date=2025-01-01&end_date=2025-12-31&hourly=soil_moisture_0_to_7cm%2Csoil_moisture_7_to_28cm%2Ctemperature_2m&models=era5_land&timezone=Asia%2FShanghai&elevation=nan&cell_selection=land",
+    "bytes": 313870,
+    "sha256": "11fb57a7e075be9f7382f4ecb4a9396268f9350e7ff77bfff5b8e32a03f9536c",
+    "retrieved_at_utc": "2026-11-09T16:11:56.945955+00:00"
+  }
+]

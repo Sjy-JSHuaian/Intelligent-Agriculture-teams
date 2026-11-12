@@ -1,0 +1,56 @@
+{
+  "repository": "https://github.com/Sjy-JSHuaian/intelligent-agriculture",
+  "commit": "1a6d26b417ee15d1980b7e1a14e1c292dd527693",
+  "review_date": "2026-11-10",
+  "role_mapping": "User roles: A=image, B=terrain/path, C=weather/risk. Repository internal role labels differ.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "e41c188ffea599527ae7e75ac739a396509d72852f59ff8e936088cc00c2de22"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "900d4a19bc98c00d3f0ec50da52da60b4c2539c157401cc8db8fffc318916e14"
+    },
+    {
+      "path": "analysis/anomaly.py",
+      "sha256": "4db294b74a24f99aac99a1cf5818b5ed36a9dd1263a7bbb1eff2a0bf3f3b2b2a"
+    },
+    {
+      "path": "analysis/vegetation.py",
+      "sha256": "9db03c3c3db44b73671f225dc978ac36f902daaf95d088dbed40ac25c09fefbd"
+    },
+    {
+      "path": "api/main.py",
+      "sha256": "50a77a6c2b655a5e7c5407f5a669138b5e4d5fdb8892a3fd2b873a3b17c93941"
+    },
+    {
+      "path": "configs/dataset.yaml",
+      "sha256": "40e536556dd899bcf703d58f90c35e4bc1e648f8c72384f2d1b50dc0371600e7"
+    },
+    {
+      "path": "datasets/preprocessing.py",
+      "sha256": "0e35554225da27c89fa87a692807634928bc5d6798cefdf2ef6084a22ae0b80e"
+    },
+    {
+      "path": "docs/API_DOCUMENTATION.md",
+      "sha256": "1cc21756863af95bb01fbdd71c6e51062e11e70006fb035aef691f58b82a0810"
+    },
+    {
+      "path": "docs/API_INTEGRATION.md",
+      "sha256": "756eb47a3303681b3e9a48b75f8e00febc580cfaa86d383caa935d32c2f3f063"
+    },
+    {
+      "path": "docs/DATA_FORMAT_SPEC.md",
+      "sha256": "bd6afb249e18d302f4a461ebd8de6225177bb24014989fffa58bfa1a0bbae352"
+    },
+    {
+      "path": "outputs/api_history.json",
+      "sha256": "d1dfbc4083fb25785a62d7ca4c025e727d1181d03a1f69dcaaa68494ab7fb4ab"
+    },
+    {
+      "path": "outputs/analysis/summary.json",
+      "sha256": "938e4ff27b4c32e07986d46a9f5fd1bb372d51e38c42e46752bb0dbd99fd027a"
+    }
+  ]
+}

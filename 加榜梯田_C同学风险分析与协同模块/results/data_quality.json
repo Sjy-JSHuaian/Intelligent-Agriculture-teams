@@ -1,0 +1,22 @@
+{
+  "rows": 1826,
+  "first_date": "2021-01-01",
+  "last_date": "2025-12-31",
+  "inserted_missing_dates": [],
+  "missing_after_cleaning": {
+    "nasa_tmean_c": 0,
+    "nasa_tmax_c": 0,
+    "nasa_tmin_c": 0,
+    "nasa_rh_pct": 0,
+    "nasa_precip_mm_day": 0,
+    "nasa_wind2m_ms": 0,
+    "nasa_solar_mj_m2_day": 0,
+    "era5_sm_0_7_m3_m3_daily_mean": 0,
+    "era5_sm_7_28_m3_m3_daily_mean": 0,
+    "era5_temperature_c_daily_mean": 0,
+    "chirps_selected_precip_mm_day": 0
+  },
+  "invalid_values": [],
+  "imputation": "None. Missing stays missing; zero rainfall remains zero.",
+  "source_day_boundaries": "NASA LST; ERA5 Asia/Shanghai; CHIRPS product date. Not harmonized."
+}

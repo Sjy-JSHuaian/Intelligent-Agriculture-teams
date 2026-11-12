@@ -1,0 +1,26 @@
+{
+  "shape": [
+    1826,
+    2,
+    2
+  ],
+  "valid_cells_each_day": 1,
+  "fixed_masked_cells_each_day": 3,
+  "fixed_mask_all_dates": true,
+  "valid_cell_coordinates": [
+    {
+      "cell_id": "CH01",
+      "longitude": 108.57500430010259,
+      "latitude": 25.624999636784196,
+      "nominal_resolution_degrees": 0.05
+    }
+  ],
+  "max_abs_grid_mean_vs_API_mm": 0.0,
+  "temporal_missing_values_within_selected_cells": 0,
+  "value_range_mm": [
+    0.0,
+    124.1727523803711
+  ],
+  "time_bounds_variable_missing": true,
+  "interpretation": "ClimateSERV-selected cell arithmetic mean; not exact polygon area-weighted precipitation. With one valid cell this equals that cell value. Fixed outer masked cells must not be filled with zero."
+}

@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "wet_day_threshold_mm": 1.0,
+  "threshold_purpose": "Descriptive wet/dry day convention, not a drought/flood/disease threshold",
+  "rolling_window": "Trailing calendar days, includes current day; complete valid window required",
+  "run_length": "Observed run since file start or most recent missing day; left-censored, true runs may be longer",
+  "missing_values": "Missing dates reindexed; rolling values blank if incomplete; runs reset after missing observation",
+  "change_vs_7days_ago": "Today minus date minus 7 days, not change of two weekly means",
+  "daily_alignment": "Each product keeps original day basis; no joint event labels generated",
+  "limitations": "Regional background only; no field-specific water depth or confirmed disease/disaster labels",
+  "rows": 1826
+}
