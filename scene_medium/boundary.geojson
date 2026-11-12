@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[0, 0], [900.0, 0], [900.0, 900.0], [0, 900.0], [0, 0]]]}, "properties": {"name": "scene_medium", "crs": "EPSG:32648"}}]}
