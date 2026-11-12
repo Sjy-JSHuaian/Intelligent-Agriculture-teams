@@ -1,0 +1,15 @@
+# 成员A 运行依赖（Python ≥ 3.10）
+# 运行 02~06 最少需要：numpy + matplotlib；网页需要 fastapi/uvicorn；03 生成占位图需要 Pillow。
+# 只有 01_build_scenes.py（从原始 DEM 重建场景）才需要 rasterio + pyshp。
+numpy>=1.26
+matplotlib>=3.8
+pandas>=2.0
+Pillow>=10.0
+
+# 重建场景（可选）
+rasterio>=1.3
+pyshp>=2.3
+
+# 网页接口（交付物5）
+fastapi>=0.110
+uvicorn[standard]>=0.27

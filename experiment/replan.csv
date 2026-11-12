@@ -1,0 +1,4 @@
+﻿scene,nfz_radius_m,injected_fraction,skipped_fields,no_replan_intrusion_m,replan_intrusion_m,extra_distance_m,total_distance_m,replan_time_s,remaining_fields
+scene_simple,45.0,0.45,1,168.6,0.0,-547.6,3707.2,0.73,5
+scene_medium,45.0,0.45,0,205.0,0.0,446.2,6904.9,2.84,14
+scene_complex,40.0,0.4,0,69.6,0.0,150.5,11642.3,6.66,24
